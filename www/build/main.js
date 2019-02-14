@@ -78,7 +78,7 @@ var ModalService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__VideoService__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__AudioService__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_music_player_music_player__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_music_player_music_player__ = __webpack_require__(125);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -196,7 +196,7 @@ var MusicPlayerPageService = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideoService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_Helpers_Shuffler__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Initializers_VideosInitializer__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Initializers_VideosInitializer__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -275,7 +275,7 @@ var VideoService = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_music_controls__ = __webpack_require__(96);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_ionic_audio__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_ionic_audio__ = __webpack_require__(187);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -698,10 +698,34 @@ var AlbumPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideosInitializer; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Video__ = __webpack_require__(288);
+
+var VideosInitializer = /** @class */ (function () {
+    function VideosInitializer() {
+    }
+    VideosInitializer.videos = [
+        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('This Is America', 'Childish Gambino', 'assets/images/videos/this is america.jpg', 'VYOjWnS4cMY'),
+        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('No Limit', 'G-Eazy', 'assets/images/videos/no limit.jpg', 'l_lblj8Cq0o'),
+        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('rockstar', 'Post Malone', 'assets/images/videos/rockstar.jpg', 'UceaB4D0jpo'),
+        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('Look What You Made Me Do', 'Taylor Swift', 'assets/images/videos/look what you made me do.jpg', '3tmd-ClpJxA'),
+        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('Better', 'Khalid', 'assets/images/videos/better.jpg', 'x3bfa3DZ8JM'),
+        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('Self Care', 'Mac Miller', 'assets/images/videos/self care.jpg', 'SsKT0s5J8ko')
+    ];
+    return VideosInitializer;
+}());
+
+//# sourceMappingURL=VideosInitializer.js.map
+
+/***/ }),
+/* 42 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardsService; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_Card__ = __webpack_require__(186);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Initializers_CardsInitializer__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__data_Card__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Initializers_CardsInitializer__ = __webpack_require__(298);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Randomizer__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Shuffler__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -787,30 +811,6 @@ var CardsService = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=CardsService.js.map
-
-/***/ }),
-/* 42 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideosInitializer; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Video__ = __webpack_require__(290);
-
-var VideosInitializer = /** @class */ (function () {
-    function VideosInitializer() {
-    }
-    VideosInitializer.videos = [
-        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('This Is America', 'Childish Gambino', 'assets/images/videos/this is america.jpg', 'VYOjWnS4cMY'),
-        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('No Limit', 'G-Eazy', 'assets/images/videos/no limit.jpg', 'l_lblj8Cq0o'),
-        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('rockstar', 'Post Malone', 'assets/images/videos/rockstar.jpg', 'UceaB4D0jpo'),
-        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('Look What You Made Me Do', 'Taylor Swift', 'assets/images/videos/look what you made me do.jpg', '3tmd-ClpJxA'),
-        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('Better', 'Khalid', 'assets/images/videos/better.jpg', 'x3bfa3DZ8JM'),
-        new __WEBPACK_IMPORTED_MODULE_0__Video__["a" /* Video */]('Self Care', 'Mac Miller', 'assets/images/videos/self care.jpg', 'SsKT0s5J8ko')
-    ];
-    return VideosInitializer;
-}());
-
-//# sourceMappingURL=VideosInitializer.js.map
 
 /***/ }),
 /* 43 */
@@ -914,9 +914,9 @@ var VideoDetailsPageService = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PurchasesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_CardsService__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_CardsService__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_selection_card_selection__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_selection_card_selection__ = __webpack_require__(128);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1080,84 +1080,6 @@ var ArtistPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__ = __webpack_require__(302);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Initializers_SongsInitializer__ = __webpack_require__(25);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_Initializers_AlbumsInitializer__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_Initializers_ArtistsInitializer__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_Initializers_PlaylistsInitializer__ = __webpack_require__(103);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-var SearchPage = /** @class */ (function () {
-    function SearchPage(modalService) {
-        this.modalService = modalService;
-        this.recentSearches = [];
-    }
-    SearchPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
-        console.log('ionViewDidLoad SearchPage');
-        var songs = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_4__data_Initializers_SongsInitializer__["a" /* SongsInitializer */].songs.slice()).splice(0, 3);
-        songs.forEach(function (song) {
-            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](song.name));
-        });
-        var albums = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_5__data_Initializers_AlbumsInitializer__["a" /* AlbumsInitializer */].albums.slice()).splice(0, 3);
-        albums.forEach(function (album) {
-            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](album.name));
-        });
-        var artists = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_6__data_Initializers_ArtistsInitializer__["a" /* ArtistsInitializer */].artists.slice()).splice(0, 3);
-        artists.forEach(function (artist) {
-            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](artist.name));
-        });
-        var playlists = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_7__data_Initializers_PlaylistsInitializer__["a" /* PlaylistsInitializer */].playlists.slice()).splice(0, 3);
-        playlists.forEach(function (playlist) {
-            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](playlist.name));
-        });
-        this.recentSearches = this.recentSearches.sort(function (a, b) {
-            return a.hoursAgo - b.hoursAgo;
-        });
-    };
-    SearchPage.prototype.remove = function (recentSearch) {
-        var index = this.recentSearches.findIndex(function (otherRecentSearch) {
-            return otherRecentSearch.name === recentSearch.name;
-        });
-        if (index >= 0) {
-            this.recentSearches.splice(index, 1);
-        }
-    };
-    SearchPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-search',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\search\search.html"*/'<ion-content>\n  <div\n    id="search"\n    data-page="search"\n    class="page search search-1 page-on-center"\n  >\n    <div class="scrollable-content " style="opacity: 1;">\n      <div class="bottom-padding">\n        <section\n          class="searches essential-search open"\n          blur="no-blur"\n          searchbar-style="style2"\n        >\n          <div class="overlay"></div>\n\n          <div class="inner appearFromTop">\n            <div class="blur"></div>\n\n            <div class="main-grids safe-area">\n              <div class="search-form-container">\n                <form\n                  data-search-list=".list-block-search"\n                  data-search-in=".item-title"\n                  class="searchbar searchbar-init"\n                >\n                  <div class="input-container">\n                    <input type="search" placeholder="Search…" />\n\n                    <div class="search-icon">\n                      <svg width="21" height="21" viewBox="0 0 20 20">\n                        <g>\n                          <path\n                            fill="#120810"\n                            stroke="#120810"\n                            d="M14.117 12.96a7.364 7.364 0 1 0-1.157 1.157l4.643 4.643a.816.816 0 0 0 1.157 0 .818.818 0 0 0 0-1.157l-4.643-4.643zm-5.753 1.13a5.727 5.727 0 1 1 0-11.454 5.727 5.727 0 0 1 0 11.455z"\n                          ></path>\n                        </g>\n                      </svg>\n                    </div>\n\n                    <div class="divider"></div>\n                  </div>\n\n                  <a class="searchbar-clear">\n                    <svg width="28" height="28" viewBox="0 0 28 28">\n                      <g>\n                        <rect\n                          width="28"\n                          height="28"\n                          fill="#B4B4B4"\n                          rx="14"\n                        ></rect>\n                        <path\n                          fill="#FFF"\n                          d="M15.414 14l3.536-3.536a1 1 0 0 0-1.414-1.414L14 12.586 10.464 9.05a1 1 0 0 0-1.414 1.414L12.586 14 9.05 17.536a1 1 0 0 0 1.414 1.414L14 15.414l3.536 3.536a1 1 0 0 0 1.414-1.414L15.414 14z"\n                        ></path>\n                      </g>\n                    </svg>\n\n                    <svg\n                      class="svg-style2"\n                      width="15px"\n                      height="15px"\n                      viewBox="0 0 16 17"\n                    >\n                      <g\n                        stroke="none"\n                        stroke-width="1"\n                        fill="none"\n                        fill-rule="evenodd"\n                      >\n                        <g transform="translate(-7.000000, -6.000000)">\n                          <rect\n                            id="frame"\n                            x="0"\n                            y="0"\n                            width="28"\n                            height="28"\n                          ></rect>\n                          <path\n                            d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                            id="shapes"\n                            fill="#FFFFFF"\n                          ></path>\n                        </g>\n                      </g>\n                    </svg>\n                  </a>\n\n                  <a\n                    (click)="modalService.dismiss()"\n                    class="link back searchbar-cancel"\n                    >Close</a\n                  >\n                </form>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <div class="essential-search searchbar-result">\n          <div class="content-block searchbar-not-found">\n            <div class="content-block-inner">Nothing found</div>\n          </div>\n\n          <div class="list-block list-block-search searchbar-found">\n            <ul>\n              <li><div class="item-title"></div></li>\n            </ul>\n          </div>\n        </div>\n\n        <section class="filter-categories">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div class="category">\n                <div class="blur"></div>\n                <p>All</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Songs</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Playlists</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Albums</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Videos</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Library</p>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section\n          class="section-titles"\n          section-type="standard"\n          see-all-style="no_see-all"\n          section-icon-style="clock_white"\n          section-title-style="center"\n        >\n          <header>\n            <div class="main-grids safe-area">\n              <div class="inner">\n                <div class="icon"></div>\n\n                <h2>Most Searched</h2>\n\n                <div class="see-all"><p>See All</p></div>\n              </div>\n            </div>\n          </header>\n        </section>\n\n        <section class="filter-tags">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div class="tags tags-absolute-pop tags-big">\n                <p>Absolute Pop</p>\n              </div>\n            \n              <div class="tags tags-drink tags-small"><p>Drink</p></div>\n              <div class="tags tags-rap tags-small"><p>Rap</p></div>\n              <div class="tags tags-autumn tags-medium"><p>Autumn</p></div>\n              <div class="tags tags-training tags-large-medium">\n                <p>Training</p>\n              </div>\n              <div class="tags tags-success tags-large-small">\n                <p>Success</p>\n              </div>\n              <div class="tags tags-travel tags-medium"><p>Travel</p></div>\n              <div class="tags tags-hits tags-small"><p>Hits</p></div>\n            </div>\n          </div>\n        </section>\n\n        <section *ngIf="recentSearches.length > 0"\n          class="section-titles"\n          section-type="standard"\n          see-all-style="no_see-all"\n          section-icon-style="clock_white"\n          section-title-style="center"\n        >\n          <header>\n            <div class="main-grids safe-area">\n              <div class="inner">\n                <div class="icon"></div>\n                <h2>Recent Searches</h2>\n              </div>\n            </div>\n          </header>\n        </section>\n\n        <section class="list-recent-searches" *ngIf="recentSearches.length > 0">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <ul>\n                <li *ngFor="let recentSearch of recentSearches" class="recent-search-item">\n                  <h2>{{ recentSearch.name }}</h2>\n                  <p>{{ recentSearch.hoursAgo }} hours ago</p> \n\n                  <button (click)="remove(recentSearch)" class="delete-search-item">\n                    <svg\n                      width="31"\n                      height="31"\n                      viewBox="0 0 31 31"\n                    >\n                      <g fill="#FFF">\n                        <circle\n                          cx="15.5"\n                          cy="15.5"\n                          r="15.5"\n                        ></circle>\n                        <path\n                          d="M17.621 15.5l3.182-3.182a1.5 1.5 0 0 0-2.121-2.121L15.5 13.379l-3.182-3.182a1.5 1.5 0 0 0-2.121 2.121l3.182 3.182-3.182 3.182a1.5 1.5 0 0 0 2.121 2.121l3.182-3.182 3.182 3.182a1.5 1.5 0 0 0 2.121-2.121L17.621 15.5z"\n                        ></path>\n                      </g>\n                    </svg>\n                  </button>\n\n                  <div class="divider"></div>\n                </li>\n              </ul>\n            </div>\n          </div>\n        </section>\n      </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\search\search.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_ModalService__["a" /* ModalService */]])
-    ], SearchPage);
-    return SearchPage;
-}());
-
-//# sourceMappingURL=search.js.map
-
-/***/ }),
-/* 67 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PlaylistPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
@@ -1230,6 +1152,84 @@ var PlaylistPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=playlist.js.map
+
+/***/ }),
+/* 67 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_ModalService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Initializers_SongsInitializer__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_Initializers_AlbumsInitializer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_Initializers_ArtistsInitializer__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_Initializers_PlaylistsInitializer__ = __webpack_require__(103);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var SearchPage = /** @class */ (function () {
+    function SearchPage(modalService) {
+        this.modalService = modalService;
+        this.recentSearches = [];
+    }
+    SearchPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad SearchPage');
+        var songs = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_4__data_Initializers_SongsInitializer__["a" /* SongsInitializer */].songs.slice()).splice(0, 3);
+        songs.forEach(function (song) {
+            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](song.name));
+        });
+        var albums = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_5__data_Initializers_AlbumsInitializer__["a" /* AlbumsInitializer */].albums.slice()).splice(0, 3);
+        albums.forEach(function (album) {
+            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](album.name));
+        });
+        var artists = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_6__data_Initializers_ArtistsInitializer__["a" /* ArtistsInitializer */].artists.slice()).splice(0, 3);
+        artists.forEach(function (artist) {
+            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](artist.name));
+        });
+        var playlists = __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__["a" /* Shuffler */].shuffle(__WEBPACK_IMPORTED_MODULE_7__data_Initializers_PlaylistsInitializer__["a" /* PlaylistsInitializer */].playlists.slice()).splice(0, 3);
+        playlists.forEach(function (playlist) {
+            _this.recentSearches.push(new __WEBPACK_IMPORTED_MODULE_2__data_RecentSearch__["a" /* RecentSearch */](playlist.name));
+        });
+        this.recentSearches = this.recentSearches.sort(function (a, b) {
+            return a.hoursAgo - b.hoursAgo;
+        });
+    };
+    SearchPage.prototype.remove = function (recentSearch) {
+        var index = this.recentSearches.findIndex(function (otherRecentSearch) {
+            return otherRecentSearch.name === recentSearch.name;
+        });
+        if (index >= 0) {
+            this.recentSearches.splice(index, 1);
+        }
+    };
+    SearchPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-search',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\search\search.html"*/'<ion-content>\n  <div\n    id="search"\n    data-page="search"\n    class="page search search-1 page-on-center"\n  >\n    <div class="scrollable-content " style="opacity: 1;">\n      <div class="bottom-padding">\n        <section\n          class="searches essential-search open"\n          blur="no-blur"\n          searchbar-style="style2"\n        >\n          <div class="overlay"></div>\n\n          <div class="inner appearFromTop">\n            <div class="blur"></div>\n\n            <div class="main-grids safe-area">\n              <div class="search-form-container">\n                <form\n                  data-search-list=".list-block-search"\n                  data-search-in=".item-title"\n                  class="searchbar searchbar-init"\n                >\n                  <div class="input-container">\n                    <input type="search" placeholder="Search…" />\n\n                    <div class="search-icon">\n                      <svg width="21" height="21" viewBox="0 0 20 20">\n                        <g>\n                          <path\n                            fill="#120810"\n                            stroke="#120810"\n                            d="M14.117 12.96a7.364 7.364 0 1 0-1.157 1.157l4.643 4.643a.816.816 0 0 0 1.157 0 .818.818 0 0 0 0-1.157l-4.643-4.643zm-5.753 1.13a5.727 5.727 0 1 1 0-11.454 5.727 5.727 0 0 1 0 11.455z"\n                          ></path>\n                        </g>\n                      </svg>\n                    </div>\n\n                    <div class="divider"></div>\n                  </div>\n\n                  <a class="searchbar-clear">\n                    <svg width="28" height="28" viewBox="0 0 28 28">\n                      <g>\n                        <rect\n                          width="28"\n                          height="28"\n                          fill="#B4B4B4"\n                          rx="14"\n                        ></rect>\n                        <path\n                          fill="#FFF"\n                          d="M15.414 14l3.536-3.536a1 1 0 0 0-1.414-1.414L14 12.586 10.464 9.05a1 1 0 0 0-1.414 1.414L12.586 14 9.05 17.536a1 1 0 0 0 1.414 1.414L14 15.414l3.536 3.536a1 1 0 0 0 1.414-1.414L15.414 14z"\n                        ></path>\n                      </g>\n                    </svg>\n\n                    <svg\n                      class="svg-style2"\n                      width="15px"\n                      height="15px"\n                      viewBox="0 0 16 17"\n                    >\n                      <g\n                        stroke="none"\n                        stroke-width="1"\n                        fill="none"\n                        fill-rule="evenodd"\n                      >\n                        <g transform="translate(-7.000000, -6.000000)">\n                          <rect\n                            id="frame"\n                            x="0"\n                            y="0"\n                            width="28"\n                            height="28"\n                          ></rect>\n                          <path\n                            d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                            id="shapes"\n                            fill="#FFFFFF"\n                          ></path>\n                        </g>\n                      </g>\n                    </svg>\n                  </a>\n\n                  <a\n                    (click)="modalService.dismiss()"\n                    class="link back searchbar-cancel"\n                    >Close</a\n                  >\n                </form>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <div class="essential-search searchbar-result">\n          <div class="content-block searchbar-not-found">\n            <div class="content-block-inner">Nothing found</div>\n          </div>\n\n          <div class="list-block list-block-search searchbar-found">\n            <ul>\n              <li><div class="item-title"></div></li>\n            </ul>\n          </div>\n        </div>\n\n        <section class="filter-categories">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div class="category">\n                <div class="blur"></div>\n                <p>All</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Songs</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Playlists</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Albums</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Videos</p>\n              </div>\n\n              <div class="category">\n                <div class="blur"></div>\n                <p>Library</p>\n              </div>\n            </div>\n          </div>\n        </section>\n\n        <section\n          class="section-titles"\n          section-type="standard"\n          see-all-style="no_see-all"\n          section-icon-style="clock_white"\n          section-title-style="center"\n        >\n          <header>\n            <div class="main-grids safe-area">\n              <div class="inner">\n                <div class="icon"></div>\n\n                <h2>Most Searched</h2>\n\n                <div class="see-all"><p>See All</p></div>\n              </div>\n            </div>\n          </header>\n        </section>\n\n        <section class="filter-tags">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div class="tags tags-absolute-pop tags-big">\n                <p>Absolute Pop</p>\n              </div>\n            \n              <div class="tags tags-drink tags-small"><p>Drink</p></div>\n              <div class="tags tags-rap tags-small"><p>Rap</p></div>\n              <div class="tags tags-autumn tags-medium"><p>Autumn</p></div>\n              <div class="tags tags-training tags-large-medium">\n                <p>Training</p>\n              </div>\n              <div class="tags tags-success tags-large-small">\n                <p>Success</p>\n              </div>\n              <div class="tags tags-travel tags-medium"><p>Travel</p></div>\n              <div class="tags tags-hits tags-small"><p>Hits</p></div>\n            </div>\n          </div>\n        </section>\n\n        <section *ngIf="recentSearches.length > 0"\n          class="section-titles"\n          section-type="standard"\n          see-all-style="no_see-all"\n          section-icon-style="clock_white"\n          section-title-style="center"\n        >\n          <header>\n            <div class="main-grids safe-area">\n              <div class="inner">\n                <div class="icon"></div>\n                <h2>Recent Searches</h2>\n              </div>\n            </div>\n          </header>\n        </section>\n\n        <section class="list-recent-searches" *ngIf="recentSearches.length > 0">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <ul>\n                <li *ngFor="let recentSearch of recentSearches" class="recent-search-item">\n                  <h2>{{ recentSearch.name }}</h2>\n                  <p>{{ recentSearch.hoursAgo }} hours ago</p> \n\n                  <button (click)="remove(recentSearch)" class="delete-search-item">\n                    <svg\n                      width="31"\n                      height="31"\n                      viewBox="0 0 31 31"\n                    >\n                      <g fill="#FFF">\n                        <circle\n                          cx="15.5"\n                          cy="15.5"\n                          r="15.5"\n                        ></circle>\n                        <path\n                          d="M17.621 15.5l3.182-3.182a1.5 1.5 0 0 0-2.121-2.121L15.5 13.379l-3.182-3.182a1.5 1.5 0 0 0-2.121 2.121l3.182 3.182-3.182 3.182a1.5 1.5 0 0 0 2.121 2.121l3.182-3.182 3.182 3.182a1.5 1.5 0 0 0 2.121-2.121L17.621 15.5z"\n                        ></path>\n                      </g>\n                    </svg>\n                  </button>\n\n                  <div class="divider"></div>\n                </li>\n              </ul>\n            </div>\n          </div>\n        </section>\n      </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\search\search.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_ModalService__["a" /* ModalService */]])
+    ], SearchPage);
+    return SearchPage;
+}());
+
+//# sourceMappingURL=search.js.map
 
 /***/ }),
 /* 68 */,
@@ -2242,10 +2242,410 @@ var PlaylistsInitializer = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicPlayerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_AudioService__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__share_share__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__options_options__ = __webpack_require__(127);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+var MusicPlayerPage = /** @class */ (function () {
+    function MusicPlayerPage(modalCtrl, modalService, audioService, musicPlayerPageService) {
+        this.modalCtrl = modalCtrl;
+        this.modalService = modalService;
+        this.audioService = audioService;
+        this.musicPlayerPageService = musicPlayerPageService;
+    }
+    MusicPlayerPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad MusicPlayerPage');
+    };
+    MusicPlayerPage.prototype.share = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__share_share__["a" /* SharePage */]);
+        modal.present();
+    };
+    MusicPlayerPage.prototype.options = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_6__options_options__["a" /* OptionsPage */]);
+        modal.present();
+    };
+    MusicPlayerPage.prototype.previous = function () {
+        this.audioService.previous();
+        this.musicPlayerPageService.setUpNextSongs();
+    };
+    MusicPlayerPage.prototype.next = function () {
+        this.audioService.next();
+        this.musicPlayerPageService.setUpNextSongs();
+    };
+    MusicPlayerPage.prototype.changeSong = function (song) {
+        this.musicPlayerPageService.simplePlaySong(song);
+    };
+    MusicPlayerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-music-player',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\music-player\music-player.html"*/'<section\n  class="player-audio-min player-attribute general alwaysblock big big-active"\n  music-player-style="style2"\n>\n  <!-- Background blur -->\n  <div class="album-cover-blur">\n    <img\n      src="{{ audioService.playingTrack().pictureUrl }}"\n      class="album cover"\n      alt="cover"\n      width="100%"\n      height="100%"\n    />\n  </div>\n\n  <div class="audiojs swipeout-content">\n    <div class="audio-player-bg">\n      <div class="playlist-header big-player">\n        <section\n          class="headers"\n          header-type="music-player"\n          header-style="style2"\n          header-title-style="left"\n        >\n          <!-- Header -->\n          <header>\n            <div class="main-grids safe-area">\n              <div class="inner">\n                <button\n                  class="minimize"\n                  (click)="modalService.dismiss()"\n                ></button>\n\n                <h2>Now Playing</h2>\n\n                <button (click)="share()" class="share-icon"></button>\n                <button\n                  (click)="options()"\n                  class="options-icon options-page"\n                ></button>\n              </div>\n            </div>\n          </header>\n        </section>\n      </div>\n\n      <div class="big-player-queue-container">\n        <!-- Album cover -->\n        <div class="container-album-cover big-player">\n          <div class="main-grids grid-cover">\n            <div class="album-cover">\n              <img\n                src="{{\n                  audioService.playingTrack()\n                    ? audioService.playingTrack().art\n                    : \'\'\n                }}"\n                class="album cover"\n                alt="cover"\n                width="100%"\n                height="100%"\n              />\n            </div>\n          </div>\n        </div>\n\n        <div class="scrubber-command scrubber-options open">\n          <div *ngIf="audioService.playingTrack()" class="scrubber">\n            <div\n              class="progress"\n              [style.width]="audioService.progressPercentage() + \'%\'"\n            ></div>\n            <div class="loaded" style="width: 100%;"></div>\n          </div>\n\n          <div class="audio-player-content">\n            <div class="big-player big-player-content">\n              <div class="main-grids safe-area">\n                <div class="inner">\n                  <!-- Duration -->\n                  <div class="time">\n                    <em class="played">{{ audioService.progressText() }}</em>\n\n                    <strong class="duration">{{\n                      audioService.durationText()\n                    }}</strong>\n                  </div>\n\n                  <!-- Name and artist -->\n                  <div class="title-author">\n                    <h2 class="title">\n                      {{\n                        audioService.playingTrack()\n                          ? audioService.playingTrack().title\n                          : \'\'\n                      }}\n                    </h2>\n                    <br />\n                    <cite class="author" avatar="11sz2" album-cover="11sz6"\n                      >{{\n                        audioService.playingTrack()\n                          ? audioService.playingTrack().artist\n                          : \'\'\n                      }}\n                    </cite>\n                  </div>\n\n                  <!-- Volume controller -->\n                  <div class="volume-content">\n                    <svg width="24px" height="21px" viewBox="0 0 24 21">\n                      <g\n                        stroke="none"\n                        stroke-width="1"\n                        fill="none"\n                        fill-rule="evenodd"\n                      >\n                        <g transform="translate(-11.000000, -12.000000)">\n                          <rect x="0" y="0" width="45" height="45"></rect>\n                          <g\n                            transform="translate(11.000000, 12.000000)"\n                            stroke="#FFFFFF"\n                          >\n                            <path\n                              d="M11.8514739,19.0036271 L11.8514739,2.55674582 L8.88066607,5.01178842 C8.27709465,5.51057314 7.28462557,6.00344821 6.52888861,6.17983976 L4.23119153,6.71612996 C2.76407274,7.05856041 1.5,8.65369069 1.5,10.1599786 L1.5,11.9580286 C1.5,13.4361496 2.74494269,14.9232684 4.19695595,15.1838497 L6.43799773,15.5860316 C7.21920941,15.7262295 8.23464497,16.1800177 8.86072234,16.6687879 L11.8514739,19.0036271 Z"\n                              stroke-width="3"\n                            ></path>\n                            <path\n                              d="M16.6719577,14.7242933 C17.4910091,13.6460074 17.9814116,12.27416 17.9814116,10.7806142 C17.9814116,9.29690432 17.497447,7.93329515 16.6880966,6.85827664"\n                              stroke-width="2"\n                              stroke-linecap="round"\n                              stroke-linejoin="round"\n                            ></path>\n                            <path\n                              d="M19.957672,18.0468055 C21.4648071,16.0626535 22.3671958,13.5383196 22.3671958,10.7900487 C22.3671958,8.05987677 21.4766535,5.55070198 19.9873692,3.57256236"\n                              stroke-width="2"\n                              stroke-linecap="round"\n                              stroke-linejoin="round"\n                            ></path>\n                          </g>\n                        </g>\n                      </g>\n                    </svg>\n\n                    <div\n                      class="volume no-fastclick ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"\n                    >\n                      <span class="volumeBar no-fastclick"></span>\n                      <div\n                        class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"\n                        style="width: 50%;"\n                      ></div>\n                      <span\n                        tabindex="0"\n                        class="ui-slider-handle ui-corner-all ui-state-default"\n                        style="left: 50%;"\n                      ></span>\n                    </div>\n                  </div>\n\n                  <div class="player-command">\n                    <div class="list"><div class="icon"></div></div>\n\n                    <div class="command">\n                      <p\n                        class="prev"\n                        (click)="previous()"\n                        style="margin-top: -1px"\n                      ></p>\n\n                      <p\n                        class="playPause play"\n                        [class.active]="audioService.playingTrack().isPlaying"\n                        (click)="\n                          audioService.playingTrack().isPlaying\n                            ? audioService.pause()\n                            : audioService.play()\n                        "\n                      ></p>\n\n                      <p\n                        class="next"\n                        (click)="next()"\n                        style="margin-top: -1px"\n                      ></p>\n                    </div>\n\n                    <div class="heart-audio">\n                      <div\n                        class="heart"\n                        [class.active]="\n                          audioService.playingTrack()\n                            ? audioService.playingTrack().isLiked\n                            : false\n                        "\n                      >\n                        <div class="icon">\n                          <svg\n                            class="heart-icon"\n                            width="21px"\n                            height="18px"\n                            viewBox="0 0 17 15"\n                          >\n                            <g\n                              stroke="none"\n                              stroke-width="1"\n                              fill="none"\n                              fill-rule="evenodd"\n                            >\n                              <g\n                                transform="translate(-7.000000, -9.000000)"\n                                fill="#FFF"\n                              >\n                                <path\n                                  d="M15.4200001,12.3674936 C16.2709429,10.2381896 17.615006,9 19.1037501,9 C21.7197286,9 23.8400002,11.3731073 23.8400002,14.3006408 C23.8400002,20.3635207 15.4200001,23.8417942 15.4200001,23.8417942 C15.4200001,23.8417942 7,20.3635207 7,14.3006408 C7,11.3731073 9.12027159,9 11.73625,9 C13.2249941,9 14.5685344,10.1493509 15.4200001,12.3674936 Z"\n                                ></path>\n                              </g>\n                            </g>\n                          </svg>\n                        </div>\n                      </div>\n                    </div>\n\n                    <div class="clear"></div>\n                  </div>\n                </div>\n              </div>\n\n              <div style="min-height: 400px" class="up-next-option">\n                <section\n                  class="section-titles"\n                  section-type="up-next"\n                  up-next-style="style2"\n                >\n                  <header>\n                    <div class="main-grids safe-area">\n                      <div class="inner" style="margin-top: 30px">\n                        <h2>Up Next</h2>\n\n                        <div class="shuffle-repeat-wrapper">\n                          <button\n                            class="shuffle shuffle-icon"\n                            [class.active]="audioService.isShuffle"\n                          ></button>\n                          <button\n                            class="repeat active repeat-icon"\n                            [class.active]="audioService.isRepeat"\n                          ></button>\n\n                          <button\n                            class="shuffle-repeat-bt"\n                            (click)="audioService.shuffleRepeat()"\n                          >\n                            <div class="blur"></div>\n\n                            <p class="shuffle-repeat-text text-shuffle">\n                              Random\n                            </p>\n\n                            <p class=" shuffle-repeat-text text-repeat">\n                              Repeat\n                            </p>\n                          </button>\n                        </div>\n                      </div>\n                    </div>\n                  </header>\n                </section>\n\n                <section\n                  class="list-songs playlist-song checkPlaylist"\n                  like-heart-style="style2"\n                >\n                  <div class="main-grids safe-area">\n                    <div class="inner">\n                      <div\n                        *ngFor="\n                          let song of musicPlayerPageService.upNextSongs;\n                          let i = index\n                        "\n                        class="slide"\n                        (click)="changeSong(song)"\n                      >\n                        <div class="author-like-wrapper">\n                          <div class="author-avatar">\n                            <img\n                              src="{{ song.pictureUrl }}"\n                              width="100%"\n                              height="auto"\n                            />\n                          </div>\n\n                          <div class="author-like">\n                            <div class="song-title-author">\n                              <h2 class="title">{{ song.name }}</h2>\n\n                              <cite class="author">\n                                <a>{{ song.artistName }} </a>\n                              </cite>\n                            </div>\n\n                            <div class="song-info-options-container">\n                              <div class="like-container">\n                                <span\n                                  class="heart-icon"\n                                  [class.active]="song.isLiked"\n                                >\n                                  <svg\n                                    width="16px"\n                                    height="15px"\n                                    viewBox="0 0 16 15"\n                                  >\n                                    <g\n                                      stroke="none"\n                                      stroke-width="1"\n                                      fill="none"\n                                      fill-rule="evenodd"\n                                    >\n                                      <g\n                                        transform="translate(1.000000, 1.000000)"\n                                      >\n                                        <g\n                                          transform="translate(-2.000000, -3.000000)"\n                                        >\n                                          <rect\n                                            x="0"\n                                            y="0"\n                                            width="18"\n                                            height="18"\n                                          ></rect>\n                                          <path\n                                            d="M9,5.70689931 C9.71495864,3.78248227 10.8248268,3 12.0625,3 C14.2373039,3 16,4.97331321 16,7.40764925 C16,12.4491242 9,15.3414179 9,15.3414179 C9,15.3414179 2,12.4491242 2,7.40764925 C2,4.97331321 3.76269608,3 5.9375,3 C7.1751732,3 8.38818359,3.78248227 9,5.70689931 Z"\n                                            id="shapes"\n                                            stroke="#FFFFFF"\n                                            stroke-width="1.7"\n                                          ></path>\n                                        </g>\n                                      </g>\n                                    </g>\n                                  </svg>\n                                </span>\n                              </div>\n                            </div>\n                          </div>\n\n                          <div class="divider"></div>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </section>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- end audio-player-bg -->\n  </div>\n  <!-- end audiojs song -->\n</section>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\music-player\music-player.html"*/
+        }),
+        __param(3, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]; }))),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
+            __WEBPACK_IMPORTED_MODULE_3__services_AudioService__["a" /* AudioService */],
+            __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]])
+    ], MusicPlayerPage);
+    return MusicPlayerPage;
+}());
+
+//# sourceMappingURL=music-player.js.map
+
+/***/ }),
+/* 126 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_ModalService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_AudioService__ = __webpack_require__(17);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SharePage = /** @class */ (function () {
+    function SharePage(modalService, audioService) {
+        this.modalService = modalService;
+        this.audioService = audioService;
+    }
+    SharePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SharePage');
+    };
+    SharePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-share',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\share\share.html"*/'<div\n  class="options-container-overlay player-attribute fromBottomToTop music-player-share open"\n>\n  <section class="share-section-title"><h2>Share</h2></section>\n\n  <section class="headers" header-type="standard" header-style="style5">\n    <header>\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="album-cover">\n            <img\n              src="{{ audioService.playingTrack().art }}"\n              class="album cover"\n              alt="cover"\n              width="100%"\n              height="100%"\n            />\n          </div>\n\n          <div class="title-author">\n            <h2 class="title">{{ audioService.playingTrack().title }}</h2>\n            <cite class="author">{{ audioService.playingTrack().artist }}</cite>\n          </div>\n        </div>\n      </div>\n    </header>\n  </section>\n\n  <section class="share-button-container">\n    <div class="main-grids safe-area">\n      <div class="inner option-container">\n        <button class="share-button share-whatsapp">WhatsApp</button>\n        <button class="share-button share-message">Message</button>\n        <button class="share-button share-messenger">Messenger</button>\n        <button class="share-button share-facebook">Facebook</button>\n        <button class="share-button share-twitter">Twitter</button>\n        <button class="share-button share-email">Email</button>\n        <button class="share-button share-copylink">Copy Link</button>\n\n        <button class="share-button share-other">\n          <svg width="5px" height="21px" viewBox="0 0 4 18">\n            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n              <g transform="translate(-12.000000, -5.000000)">\n                <rect id="frame" x="0" y="0" width="28" height="28"></rect>\n                <path\n                  d="M14,9 C12.8954305,9 12,8.1045695 12,7 C12,5.8954305 12.8954305,5 14,5 C15.1045695,5 16,5.8954305 16,7 C16,8.1045695 15.1045695,9 14,9 Z M14,16 C12.8954305,16 12,15.1045695 12,14 C12,12.8954305 12.8954305,12 14,12 C15.1045695,12 16,12.8954305 16,14 C16,15.1045695 15.1045695,16 14,16 Z M14,23 C12.8954305,23 12,22.1045695 12,21 C12,19.8954305 12.8954305,19 14,19 C15.1045695,19 16,19.8954305 16,21 C16,22.1045695 15.1045695,23 14,23 Z"\n                  fill="#FFF"\n                ></path>\n              </g>\n            </g></svg\n          >Other\n        </button>\n      </div>\n    </div>\n  </section>\n\n  <div class="share-back">\n    <div class="main-grids safe-area">\n      <button class="back" (click)="modalService.dismiss()">\n        <svg width="13px" height="13px" viewBox="0 0 16 17">\n          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n            <g transform="translate(-7.000000, -6.000000)">\n              <rect x="0" y="0" width="28" height="28"></rect>\n              <path\n                d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                fill="#120810"\n              ></path>\n            </g>\n          </g>\n        </svg>\n      </button>\n    </div>\n  </div>\n</div>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\share\share.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_ModalService__["a" /* ModalService */],
+            __WEBPACK_IMPORTED_MODULE_2__services_AudioService__["a" /* AudioService */]])
+    ], SharePage);
+    return SharePage;
+}());
+
+//# sourceMappingURL=share.js.map
+
+/***/ }),
+/* 127 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OptionsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_AudioService__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__album_album__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__artist_artist__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_Helpers_Randomizer__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_Initializers_AlbumsInitializer__ = __webpack_require__(43);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__data_Initializers_ArtistsInitializer__ = __webpack_require__(102);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+var OptionsPage = /** @class */ (function () {
+    function OptionsPage(navCtrl, modalService, audioService) {
+        this.navCtrl = navCtrl;
+        this.modalService = modalService;
+        this.audioService = audioService;
+    }
+    OptionsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad OptionsPage');
+        this.randomAlbum =
+            __WEBPACK_IMPORTED_MODULE_7__data_Initializers_AlbumsInitializer__["a" /* AlbumsInitializer */].albums[__WEBPACK_IMPORTED_MODULE_6__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, __WEBPACK_IMPORTED_MODULE_7__data_Initializers_AlbumsInitializer__["a" /* AlbumsInitializer */].albums.length - 1)];
+        this.randomArtist =
+            __WEBPACK_IMPORTED_MODULE_8__data_Initializers_ArtistsInitializer__["a" /* ArtistsInitializer */].artists[__WEBPACK_IMPORTED_MODULE_6__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, __WEBPACK_IMPORTED_MODULE_8__data_Initializers_ArtistsInitializer__["a" /* ArtistsInitializer */].artists.length - 1)];
+    };
+    OptionsPage.prototype.goToAlbum = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__album_album__["a" /* AlbumPage */], { album: this.randomAlbum });
+    };
+    OptionsPage.prototype.goToArtist = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__artist_artist__["a" /* ArtistPage */], { artist: this.randomArtist });
+    };
+    OptionsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-options',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\options\options.html"*/'<div class="options-container-overlay fromBottomToTop music-player-option open">\n  <section class="headers" header-type="standard" header-style="style5">\n    <header>\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="album-cover">\n            <img\n              src="{{ audioService.playingTrack().art }}"\n              class="album cover"\n              alt="cover"\n              width="100%"\n              height="100%"\n            />\n          </div>\n          <div class="title-author">\n            <h2 class="title">{{ audioService.playingTrack().title }}</h2>\n            <cite class="author" avatar="2sz2" album-cover="2sz5">{{\n              audioService.playingTrack().artist\n            }}</cite>\n          </div>\n        </div>\n      </div>\n    </header>\n  </section>\n\n  <div class="music-player-option-container" style="min-width: 300px;">\n    <div class="inner">\n      <p>Add to</p>\n      <div class="divider"></div>\n      <ul class="add-to">\n        <li>Your Library</li>\n        <li>Playlist</li>\n        <li>Up Next</li>\n      </ul>\n\n      <br />\n\n      <p>Go to</p>\n\n      <div class="divider"></div>\n\n      <ul class="go-to">\n        <li class="album-details-page" (click)="goToAlbum()">Full Album</li>\n        <li class="artist-details-page" (click)="goToArtist()">Artist Profile</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class="music-player-option-back">\n    <div class="main-grids safe-area">\n      <button class="back" (click)="modalService.dismiss()">\n        <svg width="13px" height="13px" viewBox="0 0 16 17">\n          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n            <g transform="translate(-7.000000, -6.000000)">\n              <rect x="0" y="0" width="28" height="28"></rect>\n              <path\n                d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                fill="#120810"\n              ></path>\n            </g>\n          </g>\n        </svg>\n      </button>\n    </div>\n  </div>\n</div>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\options\options.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
+            __WEBPACK_IMPORTED_MODULE_3__services_AudioService__["a" /* AudioService */]])
+    ], OptionsPage);
+    return OptionsPage;
+}());
+
+//# sourceMappingURL=options.js.map
+
+/***/ }),
+/* 128 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardSelectionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_CardsService__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cards_manager_cards_manager__ = __webpack_require__(129);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var CardSelectionPage = /** @class */ (function () {
+    function CardSelectionPage(navParams, modalCtrl, modalService, cardsService) {
+        this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
+        this.modalService = modalService;
+        this.cardsService = cardsService;
+        this.purchase = this.navParams.get('purchase');
+    }
+    CardSelectionPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CardSelectionPage');
+        var cardElements = document.getElementsByClassName('unique-card');
+        this.cardsService.setCardTypes(cardElements);
+    };
+    CardSelectionPage.prototype.selectCard = function (card) {
+        this.cardsService.selectCard(card);
+        this.modalService.dismiss();
+    };
+    CardSelectionPage.prototype.manageCards = function () {
+        var _this = this;
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__cards_manager_cards_manager__["a" /* CardsManagerPage */], {
+            purchase: this.purchase
+        });
+        modal.onDidDismiss(function () {
+            _this.modalService.dismiss();
+        });
+        modal.present();
+    };
+    CardSelectionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-card-selection',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-selection\card-selection.html"*/'<ion-content style="background-color: black">\n  <div\n    class="options-container-overlay purchase-popup-overlay payment-method-overlay open"\n  >\n    <section\n      class="headers"\n      header-type="back"\n      header-style="style3"\n      header-icon-style="user"\n    >\n      <header>\n        <div class="main-grids safe-area">\n          <div class="inner">\n            <button class="minimize" (click)="modalService.dismiss()"></button>\n            <h2>Payment Method</h2>\n          </div>\n        </div>\n      </header>\n    </section>\n\n    <section class="payment-method-header">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="title-author">\n            <img\n              alt="author"\n              src="{{ purchase.pictureUrl }}"\n              width="100%"\n              height="auto"\n            />\n\n            <h2 class="title">{{ purchase.name }}</h2>\n            <cite class="author">{{ purchase.artistName }}</cite>\n          </div>\n\n          <div class="divider"></div>\n\n          <div class="song-price">\n            <b class="final-price">$ {{ purchase.price }}</b>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <section class="section-titles" section-type="payments">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <h2>Your Cards</h2>\n          <button (click)="manageCards()" class="options">Manage Cards</button>\n        </div>\n      </div>\n    </section>\n\n    <section class="cards-swiper-container">\n      <div\n        class="swiper-container swiper-padding-left cards-swiper no-fastclick swiper-container-horizontal"\n      >\n        <div\n          class="swiper-wrapper"\n          style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"\n        >\n          <div (click)="selectCard(card)"\n            *ngFor="let card of cardsService.cards"\n            class="unique-card swiper-slide select-card swiper-slide-active"\n            style="width: 305px; margin-right: 18px;"\n          >\n            <div class="slide">\n              <div class="img-inner-wrapper">\n                <img src="{{ card.pictureUrl }}" width="100%" height="auto" />\n\n                <h2>{{ card.type }}</h2>\n\n                <div class="number-card-wrapper">\n                  <span>**** **** **** </span\n                  ><b class="last-numbers-card">{{ card.lastDigits }}</b>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div\n            class="swiper-slide"\n            style="width: 305px; margin-right: 18px;"\n          ></div>\n        </div>\n      </div>\n    </section>\n\n    <div class="main-grids safe-area">\n      <div class="inner">\n        <button class="paypal">\n          <svg width="20" height="24" viewBox="0 0 20 24">\n            <g fill="none" fill-rule="evenodd">\n              <path d="M-17-15h53v53h-53z"></path>\n              <path\n                fill="#FFF"\n                fill-rule="nonzero"\n                d="M19.882 8.652c.157.75.14 1.66-.053 2.732-.763 3.964-3.241 5.946-7.434 5.946h-.58a.848.848 0 0 0-.578.221.978.978 0 0 0-.316.57l-.053.254-.723 4.634-.027.2a.964.964 0 0 1-.322.57.872.872 0 0 1-.585.221H5.908a.522.522 0 0 1-.434-.2.61.61 0 0 1-.119-.483c.08-.5.195-1.25.349-2.25a581.437 581.437 0 0 1 .704-4.493l.355-2.244c.044-.33.233-.495.566-.495h1.724c1.166.018 2.201-.076 3.105-.281 1.535-.349 2.794-.992 3.776-1.929.895-.848 1.575-1.946 2.04-3.295.21-.625.364-1.218.46-1.78.009-.054.02-.088.033-.101a.045.045 0 0 1 .046-.014c.018.005.044.02.08.047.692.527 1.122 1.25 1.289 2.17zm-2.264-3.777c0 .955-.201 2.009-.605 3.16-.702 2.081-2.026 3.487-3.974 4.22-.99.357-2.096.544-3.315.562 0 .009-.395.013-1.185.013l-1.184-.013c-.877 0-1.394.429-1.552 1.286-.018.071-.39 2.437-1.119 7.098-.009.09-.061.134-.158.134H.645a.608.608 0 0 1-.48-.221.628.628 0 0 1-.152-.516L3.066.898c.044-.26.164-.474.362-.644A1.01 1.01 0 0 1 4.105 0h7.869c.298 0 .726.058 1.283.174a8.685 8.685 0 0 1 1.467.429c.938.366 1.655.915 2.151 1.647.496.732.743 1.607.743 2.625z"\n              ></path>\n            </g></svg\n          ><span>Continue on Paypal</span>\n        </button>\n      </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-selection\card-selection.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
+            __WEBPACK_IMPORTED_MODULE_3__services_CardsService__["a" /* CardsService */]])
+    ], CardSelectionPage);
+    return CardSelectionPage;
+}());
+
+//# sourceMappingURL=card-selection.js.map
+
+/***/ }),
+/* 129 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardsManagerPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_CardsService__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_ModalService__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_creator_card_creator__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_editor_card_editor__ = __webpack_require__(131);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var CardsManagerPage = /** @class */ (function () {
+    function CardsManagerPage(modalCtrl, alertCtrl, modalService, cardsService) {
+        this.modalCtrl = modalCtrl;
+        this.alertCtrl = alertCtrl;
+        this.modalService = modalService;
+        this.cardsService = cardsService;
+    }
+    CardsManagerPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CardsManagerPage');
+        var cardElements = document.getElementsByClassName('unique-card2');
+        this.cardsService.setCardTypes(cardElements);
+    };
+    CardsManagerPage.prototype.addNewCard = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__card_creator_card_creator__["a" /* CardCreatorPage */]);
+        modal.present();
+    };
+    CardsManagerPage.prototype.editingExistingCard = function (card) {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__card_editor_card_editor__["a" /* CardEditorPage */], { card: card });
+        modal.present();
+    };
+    CardsManagerPage.prototype.deleteCard = function (card) {
+        var _this = this;
+        var alert = this.alertCtrl.create({
+            title: 'Remove card',
+            subTitle: 'Are you sure you want to remove this card?',
+            buttons: [
+                {
+                    text: 'No',
+                    handler: function () { }
+                },
+                {
+                    text: 'Yes',
+                    handler: function () {
+                        _this.cardsService.removeCard(card.id);
+                    }
+                }
+            ]
+        });
+        alert.present();
+    };
+    CardsManagerPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-cards-manager',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\cards-manager\cards-manager.html"*/'<ion-content style="background-color: black">\n  <div\n    class="options-container-overlay fromBottomToTop purchase-popup-overlay manage-card-overlay open"\n  >\n    <div\n      class="scroll-container"\n      style="height: 100%; overflow: auto; -webkit-overflow-scrolling: touch;"\n    >\n      <div class="scroll-inner" style="min-height: 101%">\n        <section class="header-manage-card">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div class="header-manage-card-title">\n                <span>Your Cards</span>\n                <div class="total-cards">{{ cardsService.cards.length }}</div>\n              </div>\n\n              <button (click)="addNewCard()" class="add-new">\n                <svg width="15px" height="15px" viewBox="0 0 17 19">\n                  <g\n                    stroke="none"\n                    stroke-width="1"\n                    fill="none"\n                    fill-rule="evenodd"\n                  >\n                    <g transform="translate(-6.000000, -5.000000)">\n                      <rect x="0" y="0" width="28" height="28"></rect>\n                      <g\n                        transform="translate(6.000000, 5.000000)"\n                        fill="#1F111C"\n                      >\n                        <path\n                          d="M6.85256371,6.51839399 L6.85256371,1.62385381 L6.85256371,1.62385381 C6.85256371,0.727024115 7.57958783,-5.73000848e-17 8.47641752,-2.22044605e-16 L8.47641752,-3.31820075e-16 L8.47641752,-2.22044605e-16 C9.37324722,-3.86789125e-16 10.1002713,0.727024115 10.1002713,1.62385381 L10.1002713,6.51839399 L10.1002713,6.51839399 C10.1002713,7.07067874 10.5479866,7.51839399 11.1002713,7.51839399 L15.3787624,7.51839399 L15.3787624,7.51839399 C16.2741472,7.51839399 17,8.24424681 17,9.13963164 L17,9.13963164 L17,9.13963164 C17,10.0350165 16.2741472,10.7608693 15.3787624,10.7608693 L11.1002713,10.7608693 L11.1002713,10.7608693 C10.5479866,10.7608693 10.1002713,11.2085845 10.1002713,11.7608693 L10.1002713,16.6838385 L10.1002713,16.6838385 C10.1002713,17.5806682 9.37324722,18.3076923 8.47641752,18.3076923 L8.47641752,18.3076923 L8.47641752,18.3076923 C7.57958783,18.3076923 6.85256371,17.5806682 6.85256371,16.6838385 L6.85256371,11.7608693 L6.85256371,11.7608693 C6.85256371,11.2085845 6.40484846,10.7608693 5.85256371,10.7608693 L1.62123765,10.7608693 L1.62123765,10.7608693 C0.72585282,10.7608693 1.09653017e-16,10.0350165 0,9.13963164 L0,9.13963164 L0,9.13963164 C-1.09653017e-16,8.24424681 0.72585282,7.51839399 1.62123765,7.51839399 L5.85256371,7.51839399 L5.85256371,7.51839399 C6.40484846,7.51839399 6.85256371,7.07067874 6.85256371,6.51839399 Z"\n                        ></path>\n                      </g>\n                    </g>\n                  </g>\n                </svg>\n              </button>\n\n              <p>\n                Edit, remove or add a new card.\n              </p>\n            </div>\n          </div>\n        </section>\n\n        <section class="total-cards-vertical">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div\n                class="card-container my-card unique-card2"\n                [attr.card-type]="card.type === \'mastercard\' ? \'mastercard\' : (card.type === \'visa\' ? \'visa\': (card.type === \'amex\' ? \'amex\' : (card.type === \'discover\' ? \'discover\' : (card.type === \'dankort\' ? \'dankort\' : \'\'))))"\n                *ngFor="let card of cardsService.cards"\n              >\n                <div (click)="editingExistingCard(card)" class="card-edit">Edit</div>\n\n                <div (click)="deleteCard(card)" class="card-erase">\n                  <svg width="28" height="28" viewBox="0 0 28 28">\n                    <g\n                      fill="#FFF"\n                      fill-rule="evenodd"\n                      transform="translate(4 4)"\n                    >\n                      <path\n                        d="M2 3h16v13a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V3zm4 4a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1zm4 0a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1zm4 0a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1z"\n                      ></path>\n                      <path\n                        d="M8 0h4a3 3 0 0 1 3 3v1H5V3a3 3 0 0 1 3-3z"\n                      ></path>\n                      <rect width="20" height="2" y="3" rx="1"></rect>\n                    </g>\n                  </svg>\n                </div>\n\n                <div class="card-logo"></div>\n\n                <div class="card-input-contain">\n                  <ion-row style="height: 100%" align-items-center>\n                    <ion-col text-center>\n                      <div>\n                        <span\n                          style="font-size: 22px; font-weight: 500; letter-spacing: .5px; color: #fff"\n                          >**** **** **** </span\n                        ><b\n                          style="font-size: 22px; font-weight: 500; letter-spacing: .5px; color: #fff"\n                          class="last-numbers-card"\n                          >{{ card.lastDigits }}</b\n                        >\n                      </div>\n                    </ion-col>\n                  </ion-row>\n\n                  <div class="input name-card">\n                    <p>Holder</p>\n                    <div>{{ card.holder }}</div>\n                  </div>\n\n                  <div class="input exp-date">\n                    <p>Expires</p>\n                    <div>{{ card.expiryMonth }} / {{ card.expiryYear }}</div>\n                  </div>\n\n                  <div class="input cvv" style="min-width: 50px;">\n                    <p>Cvv</p>\n                    <div>{{ card.CCV }}</div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n      </div>\n    </div>\n\n    <div class="confirm-purchase-popup-back">\n      <div class="main-grids safe-area">\n        <button (click)="modalService.dismiss()" class="back card-selection-page">Cancel</button>\n      </div>\n    </div>\n\n    <div class="gradient"></div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\cards-manager\cards-manager.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
+            __WEBPACK_IMPORTED_MODULE_3__services_ModalService__["a" /* ModalService */],
+            __WEBPACK_IMPORTED_MODULE_2__services_CardsService__["a" /* CardsService */]])
+    ], CardsManagerPage);
+    return CardsManagerPage;
+}());
+
+//# sourceMappingURL=cards-manager.js.map
+
+/***/ }),
+/* 130 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardCreatorPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_CardsService__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var CardCreatorPage = /** @class */ (function () {
+    function CardCreatorPage(modalService, cardsService) {
+        this.modalService = modalService;
+        this.cardsService = cardsService;
+    }
+    CardCreatorPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CardCreatorPage');
+    };
+    CardCreatorPage.prototype.addCard = function () {
+        if (!this.validate()) {
+            return;
+        }
+        this.cardsService.addNewCard(this.ccNumber, this.holder, this.expiryDate, this.ccv);
+        this.modalService.dismiss();
+    };
+    CardCreatorPage.prototype.validate = function () {
+        if (!this.ccNumber) {
+            return false;
+        }
+        var tempccNumber = this.ccNumber.replace(/\s/g, '');
+        if (tempccNumber.length != 16) {
+            return false;
+        }
+        if (!this.expiryDate) {
+            return false;
+        }
+        var tempExpiryDate = this.expiryDate.replace(/\s/g, '');
+        if (tempExpiryDate.length != 5) {
+            return false;
+        }
+        if (!this.holder) {
+            return false;
+        }
+        if (!this.ccv || this.ccv.length != 3) {
+            return false;
+        }
+        return true;
+    };
+    CardCreatorPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-card-creator',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-creator\card-creator.html"*/'<ion-content style="background-color: black">\n  <div\n    class="options-container-overlay fromBottomToTop purchase-popup-overlay edit-card-overlay open"\n  >\n    <section class="header-edit-card">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="header-edit-card-title">\n            ><span class="selected-card">Add New Card</span>\n          </div>\n\n          <button (click)="modalService.dismiss()" class="close">\n            <svg width="13px" height="13px" viewBox="0 0 16 17">\n              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n                <g transform="translate(-7.000000, -6.000000)">\n                  <rect x="0" y="0" width="28" height="28"></rect>\n                  <path\n                    d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                    fill="#120810"\n                  ></path>\n                </g>\n              </g>\n            </svg>\n          </button>\n\n          <p>Tap on the card to edit your card\'s information<br /></p>\n        </div>\n      </div>\n    </section>\n\n    <section class="pay-form-container active new-card" card-type="unknown">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <form action="">\n            <div (click)="addCard()" class="card-done">Done</div>\n\n            <div class="card-logo"></div>\n\n            <div class="card-input-contain">\n              <div class="input card-number">\n                <input\n                  type="tel"\n                  autocomplete="cc-number"\n                  id="cc-number"\n                  ccNum\n                  maxlength="19"\n                  name="ccNumber"\n                  [(ngModel)]="ccNumber"\n                />\n              </div>\n\n              <div class="input name-card">\n                <p>Holder</p>\n                <input\n                  placeholder="Your Name"\n                  type="text"\n                  name="holder"\n                  [(ngModel)]="holder"\n                />\n              </div>\n\n              <div class="input exp-date">\n                <p>Expires</p>\n\n                <input\n                  type="tel"\n                  placeholder="00/00"\n                  ccExp\n                  autocomplete="cc-exp"\n                  id="cc-exp"\n                  maxlength="7"\n                  name="expiryDate"\n                  [(ngModel)]="expiryDate"\n                />\n              </div>\n\n              <div class="input cvv">\n                <p>Cvv</p>\n\n                <input\n                  type="tel"\n                  placeholder="000"\n                  autocomplete="cc-cvc"\n                  id="cc-csc"\n                  ccCvc\n                  maxlength="3"\n                  name="ccv"\n                  [(ngModel)]="ccv"\n                />\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </section>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-creator\card-creator.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
+            __WEBPACK_IMPORTED_MODULE_1__services_CardsService__["a" /* CardsService */]])
+    ], CardCreatorPage);
+    return CardCreatorPage;
+}());
+
+//# sourceMappingURL=card-creator.js.map
+
+/***/ }),
+/* 131 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardEditorPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_CardsService__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_CardsService__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_ModalService__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2318,406 +2718,6 @@ var CardEditorPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=card-editor.js.map
-
-/***/ }),
-/* 126 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardsManagerPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_CardsService__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__card_creator_card_creator__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__card_editor_card_editor__ = __webpack_require__(125);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-var CardsManagerPage = /** @class */ (function () {
-    function CardsManagerPage(modalCtrl, alertCtrl, modalService, cardsService) {
-        this.modalCtrl = modalCtrl;
-        this.alertCtrl = alertCtrl;
-        this.modalService = modalService;
-        this.cardsService = cardsService;
-    }
-    CardsManagerPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CardsManagerPage');
-        var cardElements = document.getElementsByClassName('unique-card2');
-        this.cardsService.setCardTypes(cardElements);
-    };
-    CardsManagerPage.prototype.addNewCard = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__card_creator_card_creator__["a" /* CardCreatorPage */]);
-        modal.present();
-    };
-    CardsManagerPage.prototype.editingExistingCard = function (card) {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__card_editor_card_editor__["a" /* CardEditorPage */], { card: card });
-        modal.present();
-    };
-    CardsManagerPage.prototype.deleteCard = function (card) {
-        var _this = this;
-        var alert = this.alertCtrl.create({
-            title: 'Remove card',
-            subTitle: 'Are you sure you want to remove this card?',
-            buttons: [
-                {
-                    text: 'No',
-                    handler: function () { }
-                },
-                {
-                    text: 'Yes',
-                    handler: function () {
-                        _this.cardsService.removeCard(card.id);
-                    }
-                }
-            ]
-        });
-        alert.present();
-    };
-    CardsManagerPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-cards-manager',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\cards-manager\cards-manager.html"*/'<ion-content style="background-color: black">\n  <div\n    class="options-container-overlay fromBottomToTop purchase-popup-overlay manage-card-overlay open"\n  >\n    <div\n      class="scroll-container"\n      style="height: 100%; overflow: auto; -webkit-overflow-scrolling: touch;"\n    >\n      <div class="scroll-inner" style="min-height: 101%">\n        <section class="header-manage-card">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div class="header-manage-card-title">\n                <span>Your Cards</span>\n                <div class="total-cards">{{ cardsService.cards.length }}</div>\n              </div>\n\n              <button (click)="addNewCard()" class="add-new">\n                <svg width="15px" height="15px" viewBox="0 0 17 19">\n                  <g\n                    stroke="none"\n                    stroke-width="1"\n                    fill="none"\n                    fill-rule="evenodd"\n                  >\n                    <g transform="translate(-6.000000, -5.000000)">\n                      <rect x="0" y="0" width="28" height="28"></rect>\n                      <g\n                        transform="translate(6.000000, 5.000000)"\n                        fill="#1F111C"\n                      >\n                        <path\n                          d="M6.85256371,6.51839399 L6.85256371,1.62385381 L6.85256371,1.62385381 C6.85256371,0.727024115 7.57958783,-5.73000848e-17 8.47641752,-2.22044605e-16 L8.47641752,-3.31820075e-16 L8.47641752,-2.22044605e-16 C9.37324722,-3.86789125e-16 10.1002713,0.727024115 10.1002713,1.62385381 L10.1002713,6.51839399 L10.1002713,6.51839399 C10.1002713,7.07067874 10.5479866,7.51839399 11.1002713,7.51839399 L15.3787624,7.51839399 L15.3787624,7.51839399 C16.2741472,7.51839399 17,8.24424681 17,9.13963164 L17,9.13963164 L17,9.13963164 C17,10.0350165 16.2741472,10.7608693 15.3787624,10.7608693 L11.1002713,10.7608693 L11.1002713,10.7608693 C10.5479866,10.7608693 10.1002713,11.2085845 10.1002713,11.7608693 L10.1002713,16.6838385 L10.1002713,16.6838385 C10.1002713,17.5806682 9.37324722,18.3076923 8.47641752,18.3076923 L8.47641752,18.3076923 L8.47641752,18.3076923 C7.57958783,18.3076923 6.85256371,17.5806682 6.85256371,16.6838385 L6.85256371,11.7608693 L6.85256371,11.7608693 C6.85256371,11.2085845 6.40484846,10.7608693 5.85256371,10.7608693 L1.62123765,10.7608693 L1.62123765,10.7608693 C0.72585282,10.7608693 1.09653017e-16,10.0350165 0,9.13963164 L0,9.13963164 L0,9.13963164 C-1.09653017e-16,8.24424681 0.72585282,7.51839399 1.62123765,7.51839399 L5.85256371,7.51839399 L5.85256371,7.51839399 C6.40484846,7.51839399 6.85256371,7.07067874 6.85256371,6.51839399 Z"\n                        ></path>\n                      </g>\n                    </g>\n                  </g>\n                </svg>\n              </button>\n\n              <p>\n                Edit, remove or add a new card.\n              </p>\n            </div>\n          </div>\n        </section>\n\n        <section class="total-cards-vertical">\n          <div class="main-grids safe-area">\n            <div class="inner">\n              <div\n                class="card-container my-card unique-card2"\n                [attr.card-type]="card.type === \'mastercard\' ? \'mastercard\' : (card.type === \'visa\' ? \'visa\': (card.type === \'amex\' ? \'amex\' : (card.type === \'discover\' ? \'discover\' : (card.type === \'dankort\' ? \'dankort\' : \'\'))))"\n                *ngFor="let card of cardsService.cards"\n              >\n                <div (click)="editingExistingCard(card)" class="card-edit">Edit</div>\n\n                <div (click)="deleteCard(card)" class="card-erase">\n                  <svg width="28" height="28" viewBox="0 0 28 28">\n                    <g\n                      fill="#FFF"\n                      fill-rule="evenodd"\n                      transform="translate(4 4)"\n                    >\n                      <path\n                        d="M2 3h16v13a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V3zm4 4a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1zm4 0a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1zm4 0a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0V8a1 1 0 0 1 1-1z"\n                      ></path>\n                      <path\n                        d="M8 0h4a3 3 0 0 1 3 3v1H5V3a3 3 0 0 1 3-3z"\n                      ></path>\n                      <rect width="20" height="2" y="3" rx="1"></rect>\n                    </g>\n                  </svg>\n                </div>\n\n                <div class="card-logo"></div>\n\n                <div class="card-input-contain">\n                  <ion-row style="height: 100%" align-items-center>\n                    <ion-col text-center>\n                      <div>\n                        <span\n                          style="font-size: 22px; font-weight: 500; letter-spacing: .5px; color: #fff"\n                          >**** **** **** </span\n                        ><b\n                          style="font-size: 22px; font-weight: 500; letter-spacing: .5px; color: #fff"\n                          class="last-numbers-card"\n                          >{{ card.lastDigits }}</b\n                        >\n                      </div>\n                    </ion-col>\n                  </ion-row>\n\n                  <div class="input name-card">\n                    <p>Holder</p>\n                    <div>{{ card.holder }}</div>\n                  </div>\n\n                  <div class="input exp-date">\n                    <p>Expires</p>\n                    <div>{{ card.expiryMonth }} / {{ card.expiryYear }}</div>\n                  </div>\n\n                  <div class="input cvv" style="min-width: 50px;">\n                    <p>Cvv</p>\n                    <div>{{ card.CCV }}</div>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </section>\n      </div>\n    </div>\n\n    <div class="confirm-purchase-popup-back">\n      <div class="main-grids safe-area">\n        <button (click)="modalService.dismiss()" class="back card-selection-page">Cancel</button>\n      </div>\n    </div>\n\n    <div class="gradient"></div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\cards-manager\cards-manager.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_3__services_ModalService__["a" /* ModalService */],
-            __WEBPACK_IMPORTED_MODULE_2__services_CardsService__["a" /* CardsService */]])
-    ], CardsManagerPage);
-    return CardsManagerPage;
-}());
-
-//# sourceMappingURL=cards-manager.js.map
-
-/***/ }),
-/* 127 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardCreatorPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_CardsService__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var CardCreatorPage = /** @class */ (function () {
-    function CardCreatorPage(modalService, cardsService) {
-        this.modalService = modalService;
-        this.cardsService = cardsService;
-    }
-    CardCreatorPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CardCreatorPage');
-    };
-    CardCreatorPage.prototype.addCard = function () {
-        if (!this.validate()) {
-            return;
-        }
-        this.cardsService.addNewCard(this.ccNumber, this.holder, this.expiryDate, this.ccv);
-        this.modalService.dismiss();
-    };
-    CardCreatorPage.prototype.validate = function () {
-        if (!this.ccNumber) {
-            return false;
-        }
-        var tempccNumber = this.ccNumber.replace(/\s/g, '');
-        if (tempccNumber.length != 16) {
-            return false;
-        }
-        if (!this.expiryDate) {
-            return false;
-        }
-        var tempExpiryDate = this.expiryDate.replace(/\s/g, '');
-        if (tempExpiryDate.length != 5) {
-            return false;
-        }
-        if (!this.holder) {
-            return false;
-        }
-        if (!this.ccv || this.ccv.length != 3) {
-            return false;
-        }
-        return true;
-    };
-    CardCreatorPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-card-creator',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-creator\card-creator.html"*/'<ion-content style="background-color: black">\n  <div\n    class="options-container-overlay fromBottomToTop purchase-popup-overlay edit-card-overlay open"\n  >\n    <section class="header-edit-card">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="header-edit-card-title">\n            ><span class="selected-card">Add New Card</span>\n          </div>\n\n          <button (click)="modalService.dismiss()" class="close">\n            <svg width="13px" height="13px" viewBox="0 0 16 17">\n              <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n                <g transform="translate(-7.000000, -6.000000)">\n                  <rect x="0" y="0" width="28" height="28"></rect>\n                  <path\n                    d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                    fill="#120810"\n                  ></path>\n                </g>\n              </g>\n            </svg>\n          </button>\n\n          <p>Tap on the card to edit your card\'s information<br /></p>\n        </div>\n      </div>\n    </section>\n\n    <section class="pay-form-container active new-card" card-type="unknown">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <form action="">\n            <div (click)="addCard()" class="card-done">Done</div>\n\n            <div class="card-logo"></div>\n\n            <div class="card-input-contain">\n              <div class="input card-number">\n                <input\n                  type="tel"\n                  autocomplete="cc-number"\n                  id="cc-number"\n                  ccNum\n                  maxlength="19"\n                  name="ccNumber"\n                  [(ngModel)]="ccNumber"\n                />\n              </div>\n\n              <div class="input name-card">\n                <p>Holder</p>\n                <input\n                  placeholder="Your Name"\n                  type="text"\n                  name="holder"\n                  [(ngModel)]="holder"\n                />\n              </div>\n\n              <div class="input exp-date">\n                <p>Expires</p>\n\n                <input\n                  type="tel"\n                  placeholder="00/00"\n                  ccExp\n                  autocomplete="cc-exp"\n                  id="cc-exp"\n                  maxlength="7"\n                  name="expiryDate"\n                  [(ngModel)]="expiryDate"\n                />\n              </div>\n\n              <div class="input cvv">\n                <p>Cvv</p>\n\n                <input\n                  type="tel"\n                  placeholder="000"\n                  autocomplete="cc-cvc"\n                  id="cc-csc"\n                  ccCvc\n                  maxlength="3"\n                  name="ccv"\n                  [(ngModel)]="ccv"\n                />\n              </div>\n            </div>\n          </form>\n        </div>\n      </div>\n    </section>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-creator\card-creator.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
-            __WEBPACK_IMPORTED_MODULE_1__services_CardsService__["a" /* CardsService */]])
-    ], CardCreatorPage);
-    return CardCreatorPage;
-}());
-
-//# sourceMappingURL=card-creator.js.map
-
-/***/ }),
-/* 128 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MusicPlayerPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_AudioService__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__share_share__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__options_options__ = __webpack_require__(130);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-
-var MusicPlayerPage = /** @class */ (function () {
-    function MusicPlayerPage(modalCtrl, modalService, audioService, musicPlayerPageService) {
-        this.modalCtrl = modalCtrl;
-        this.modalService = modalService;
-        this.audioService = audioService;
-        this.musicPlayerPageService = musicPlayerPageService;
-    }
-    MusicPlayerPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad MusicPlayerPage');
-    };
-    MusicPlayerPage.prototype.share = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__share_share__["a" /* SharePage */]);
-        modal.present();
-    };
-    MusicPlayerPage.prototype.options = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_6__options_options__["a" /* OptionsPage */]);
-        modal.present();
-    };
-    MusicPlayerPage.prototype.previous = function () {
-        this.audioService.previous();
-        this.musicPlayerPageService.setUpNextSongs();
-    };
-    MusicPlayerPage.prototype.next = function () {
-        this.audioService.next();
-        this.musicPlayerPageService.setUpNextSongs();
-    };
-    MusicPlayerPage.prototype.changeSong = function (song) {
-        this.musicPlayerPageService.simplePlaySong(song);
-    };
-    MusicPlayerPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-music-player',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\music-player\music-player.html"*/'<section\n  class="player-audio-min player-attribute general alwaysblock big big-active"\n  music-player-style="style2"\n>\n  <!-- Background blur -->\n  <div class="album-cover-blur">\n    <img\n      src="{{ audioService.playingTrack().pictureUrl }}"\n      class="album cover"\n      alt="cover"\n      width="100%"\n      height="100%"\n    />\n  </div>\n\n  <div class="audiojs swipeout-content">\n    <div class="audio-player-bg">\n      <div class="playlist-header big-player">\n        <section\n          class="headers"\n          header-type="music-player"\n          header-style="style2"\n          header-title-style="left"\n        >\n          <!-- Header -->\n          <header>\n            <div class="main-grids safe-area">\n              <div class="inner">\n                <button\n                  class="minimize"\n                  (click)="modalService.dismiss()"\n                ></button>\n\n                <h2>Now Playing</h2>\n\n                <button (click)="share()" class="share-icon"></button>\n                <button\n                  (click)="options()"\n                  class="options-icon options-page"\n                ></button>\n              </div>\n            </div>\n          </header>\n        </section>\n      </div>\n\n      <div class="big-player-queue-container">\n        <!-- Album cover -->\n        <div class="container-album-cover big-player">\n          <div class="main-grids grid-cover">\n            <div class="album-cover">\n              <img\n                src="{{\n                  audioService.playingTrack()\n                    ? audioService.playingTrack().art\n                    : \'\'\n                }}"\n                class="album cover"\n                alt="cover"\n                width="100%"\n                height="100%"\n              />\n            </div>\n          </div>\n        </div>\n\n        <div class="scrubber-command scrubber-options open">\n          <div *ngIf="audioService.playingTrack()" class="scrubber">\n            <div\n              class="progress"\n              [style.width]="audioService.progressPercentage() + \'%\'"\n            ></div>\n            <div class="loaded" style="width: 100%;"></div>\n          </div>\n\n          <div class="audio-player-content">\n            <div class="big-player big-player-content">\n              <div class="main-grids safe-area">\n                <div class="inner">\n                  <!-- Duration -->\n                  <div class="time">\n                    <em class="played">{{ audioService.progressText() }}</em>\n\n                    <strong class="duration">{{\n                      audioService.durationText()\n                    }}</strong>\n                  </div>\n\n                  <!-- Name and artist -->\n                  <div class="title-author">\n                    <h2 class="title">\n                      {{\n                        audioService.playingTrack()\n                          ? audioService.playingTrack().title\n                          : \'\'\n                      }}\n                    </h2>\n                    <br />\n                    <cite class="author" avatar="11sz2" album-cover="11sz6"\n                      >{{\n                        audioService.playingTrack()\n                          ? audioService.playingTrack().artist\n                          : \'\'\n                      }}\n                    </cite>\n                  </div>\n\n                  <!-- Volume controller -->\n                  <div class="volume-content">\n                    <svg width="24px" height="21px" viewBox="0 0 24 21">\n                      <g\n                        stroke="none"\n                        stroke-width="1"\n                        fill="none"\n                        fill-rule="evenodd"\n                      >\n                        <g transform="translate(-11.000000, -12.000000)">\n                          <rect x="0" y="0" width="45" height="45"></rect>\n                          <g\n                            transform="translate(11.000000, 12.000000)"\n                            stroke="#FFFFFF"\n                          >\n                            <path\n                              d="M11.8514739,19.0036271 L11.8514739,2.55674582 L8.88066607,5.01178842 C8.27709465,5.51057314 7.28462557,6.00344821 6.52888861,6.17983976 L4.23119153,6.71612996 C2.76407274,7.05856041 1.5,8.65369069 1.5,10.1599786 L1.5,11.9580286 C1.5,13.4361496 2.74494269,14.9232684 4.19695595,15.1838497 L6.43799773,15.5860316 C7.21920941,15.7262295 8.23464497,16.1800177 8.86072234,16.6687879 L11.8514739,19.0036271 Z"\n                              stroke-width="3"\n                            ></path>\n                            <path\n                              d="M16.6719577,14.7242933 C17.4910091,13.6460074 17.9814116,12.27416 17.9814116,10.7806142 C17.9814116,9.29690432 17.497447,7.93329515 16.6880966,6.85827664"\n                              stroke-width="2"\n                              stroke-linecap="round"\n                              stroke-linejoin="round"\n                            ></path>\n                            <path\n                              d="M19.957672,18.0468055 C21.4648071,16.0626535 22.3671958,13.5383196 22.3671958,10.7900487 C22.3671958,8.05987677 21.4766535,5.55070198 19.9873692,3.57256236"\n                              stroke-width="2"\n                              stroke-linecap="round"\n                              stroke-linejoin="round"\n                            ></path>\n                          </g>\n                        </g>\n                      </g>\n                    </svg>\n\n                    <div\n                      class="volume no-fastclick ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"\n                    >\n                      <span class="volumeBar no-fastclick"></span>\n                      <div\n                        class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min"\n                        style="width: 50%;"\n                      ></div>\n                      <span\n                        tabindex="0"\n                        class="ui-slider-handle ui-corner-all ui-state-default"\n                        style="left: 50%;"\n                      ></span>\n                    </div>\n                  </div>\n\n                  <div class="player-command">\n                    <div class="list"><div class="icon"></div></div>\n\n                    <div class="command">\n                      <p\n                        class="prev"\n                        (click)="previous()"\n                        style="margin-top: -1px"\n                      ></p>\n\n                      <p\n                        class="playPause play"\n                        [class.active]="audioService.playingTrack().isPlaying"\n                        (click)="\n                          audioService.playingTrack().isPlaying\n                            ? audioService.pause()\n                            : audioService.play()\n                        "\n                      ></p>\n\n                      <p\n                        class="next"\n                        (click)="next()"\n                        style="margin-top: -1px"\n                      ></p>\n                    </div>\n\n                    <div class="heart-audio">\n                      <div\n                        class="heart"\n                        [class.active]="\n                          audioService.playingTrack()\n                            ? audioService.playingTrack().isLiked\n                            : false\n                        "\n                      >\n                        <div class="icon">\n                          <svg\n                            class="heart-icon"\n                            width="21px"\n                            height="18px"\n                            viewBox="0 0 17 15"\n                          >\n                            <g\n                              stroke="none"\n                              stroke-width="1"\n                              fill="none"\n                              fill-rule="evenodd"\n                            >\n                              <g\n                                transform="translate(-7.000000, -9.000000)"\n                                fill="#FFF"\n                              >\n                                <path\n                                  d="M15.4200001,12.3674936 C16.2709429,10.2381896 17.615006,9 19.1037501,9 C21.7197286,9 23.8400002,11.3731073 23.8400002,14.3006408 C23.8400002,20.3635207 15.4200001,23.8417942 15.4200001,23.8417942 C15.4200001,23.8417942 7,20.3635207 7,14.3006408 C7,11.3731073 9.12027159,9 11.73625,9 C13.2249941,9 14.5685344,10.1493509 15.4200001,12.3674936 Z"\n                                ></path>\n                              </g>\n                            </g>\n                          </svg>\n                        </div>\n                      </div>\n                    </div>\n\n                    <div class="clear"></div>\n                  </div>\n                </div>\n              </div>\n\n              <div style="min-height: 400px" class="up-next-option">\n                <section\n                  class="section-titles"\n                  section-type="up-next"\n                  up-next-style="style2"\n                >\n                  <header>\n                    <div class="main-grids safe-area">\n                      <div class="inner" style="margin-top: 30px">\n                        <h2>Up Next</h2>\n\n                        <div class="shuffle-repeat-wrapper">\n                          <button\n                            class="shuffle shuffle-icon"\n                            [class.active]="audioService.isShuffle"\n                          ></button>\n                          <button\n                            class="repeat active repeat-icon"\n                            [class.active]="audioService.isRepeat"\n                          ></button>\n\n                          <button\n                            class="shuffle-repeat-bt"\n                            (click)="audioService.shuffleRepeat()"\n                          >\n                            <div class="blur"></div>\n\n                            <p class="shuffle-repeat-text text-shuffle">\n                              Random\n                            </p>\n\n                            <p class=" shuffle-repeat-text text-repeat">\n                              Repeat\n                            </p>\n                          </button>\n                        </div>\n                      </div>\n                    </div>\n                  </header>\n                </section>\n\n                <section\n                  class="list-songs playlist-song checkPlaylist"\n                  like-heart-style="style2"\n                >\n                  <div class="main-grids safe-area">\n                    <div class="inner">\n                      <div\n                        *ngFor="\n                          let song of musicPlayerPageService.upNextSongs;\n                          let i = index\n                        "\n                        class="slide"\n                        (click)="changeSong(song)"\n                      >\n                        <div class="author-like-wrapper">\n                          <div class="author-avatar">\n                            <img\n                              src="{{ song.pictureUrl }}"\n                              width="100%"\n                              height="auto"\n                            />\n                          </div>\n\n                          <div class="author-like">\n                            <div class="song-title-author">\n                              <h2 class="title">{{ song.name }}</h2>\n\n                              <cite class="author">\n                                <a>{{ song.artistName }} </a>\n                              </cite>\n                            </div>\n\n                            <div class="song-info-options-container">\n                              <div class="like-container">\n                                <span\n                                  class="heart-icon"\n                                  [class.active]="song.isLiked"\n                                >\n                                  <svg\n                                    width="16px"\n                                    height="15px"\n                                    viewBox="0 0 16 15"\n                                  >\n                                    <g\n                                      stroke="none"\n                                      stroke-width="1"\n                                      fill="none"\n                                      fill-rule="evenodd"\n                                    >\n                                      <g\n                                        transform="translate(1.000000, 1.000000)"\n                                      >\n                                        <g\n                                          transform="translate(-2.000000, -3.000000)"\n                                        >\n                                          <rect\n                                            x="0"\n                                            y="0"\n                                            width="18"\n                                            height="18"\n                                          ></rect>\n                                          <path\n                                            d="M9,5.70689931 C9.71495864,3.78248227 10.8248268,3 12.0625,3 C14.2373039,3 16,4.97331321 16,7.40764925 C16,12.4491242 9,15.3414179 9,15.3414179 C9,15.3414179 2,12.4491242 2,7.40764925 C2,4.97331321 3.76269608,3 5.9375,3 C7.1751732,3 8.38818359,3.78248227 9,5.70689931 Z"\n                                            id="shapes"\n                                            stroke="#FFFFFF"\n                                            stroke-width="1.7"\n                                          ></path>\n                                        </g>\n                                      </g>\n                                    </g>\n                                  </svg>\n                                </span>\n                              </div>\n                            </div>\n                          </div>\n\n                          <div class="divider"></div>\n                        </div>\n                      </div>\n                    </div>\n                  </div>\n                </section>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <!-- end audio-player-bg -->\n  </div>\n  <!-- end audiojs song -->\n</section>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\music-player\music-player.html"*/
-        }),
-        __param(3, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]; }))),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
-            __WEBPACK_IMPORTED_MODULE_3__services_AudioService__["a" /* AudioService */],
-            __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]])
-    ], MusicPlayerPage);
-    return MusicPlayerPage;
-}());
-
-//# sourceMappingURL=music-player.js.map
-
-/***/ }),
-/* 129 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_AudioService__ = __webpack_require__(17);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var SharePage = /** @class */ (function () {
-    function SharePage(modalService, audioService) {
-        this.modalService = modalService;
-        this.audioService = audioService;
-    }
-    SharePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SharePage');
-    };
-    SharePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-share',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\share\share.html"*/'<div\n  class="options-container-overlay player-attribute fromBottomToTop music-player-share open"\n>\n  <section class="share-section-title"><h2>Share</h2></section>\n\n  <section class="headers" header-type="standard" header-style="style5">\n    <header>\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="album-cover">\n            <img\n              src="{{ audioService.playingTrack().art }}"\n              class="album cover"\n              alt="cover"\n              width="100%"\n              height="100%"\n            />\n          </div>\n\n          <div class="title-author">\n            <h2 class="title">{{ audioService.playingTrack().title }}</h2>\n            <cite class="author">{{ audioService.playingTrack().artist }}</cite>\n          </div>\n        </div>\n      </div>\n    </header>\n  </section>\n\n  <section class="share-button-container">\n    <div class="main-grids safe-area">\n      <div class="inner option-container">\n        <button class="share-button share-whatsapp">WhatsApp</button>\n        <button class="share-button share-message">Message</button>\n        <button class="share-button share-messenger">Messenger</button>\n        <button class="share-button share-facebook">Facebook</button>\n        <button class="share-button share-twitter">Twitter</button>\n        <button class="share-button share-email">Email</button>\n        <button class="share-button share-copylink">Copy Link</button>\n\n        <button class="share-button share-other">\n          <svg width="5px" height="21px" viewBox="0 0 4 18">\n            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n              <g transform="translate(-12.000000, -5.000000)">\n                <rect id="frame" x="0" y="0" width="28" height="28"></rect>\n                <path\n                  d="M14,9 C12.8954305,9 12,8.1045695 12,7 C12,5.8954305 12.8954305,5 14,5 C15.1045695,5 16,5.8954305 16,7 C16,8.1045695 15.1045695,9 14,9 Z M14,16 C12.8954305,16 12,15.1045695 12,14 C12,12.8954305 12.8954305,12 14,12 C15.1045695,12 16,12.8954305 16,14 C16,15.1045695 15.1045695,16 14,16 Z M14,23 C12.8954305,23 12,22.1045695 12,21 C12,19.8954305 12.8954305,19 14,19 C15.1045695,19 16,19.8954305 16,21 C16,22.1045695 15.1045695,23 14,23 Z"\n                  fill="#FFF"\n                ></path>\n              </g>\n            </g></svg\n          >Other\n        </button>\n      </div>\n    </div>\n  </section>\n\n  <div class="share-back">\n    <div class="main-grids safe-area">\n      <button class="back" (click)="modalService.dismiss()">\n        <svg width="13px" height="13px" viewBox="0 0 16 17">\n          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n            <g transform="translate(-7.000000, -6.000000)">\n              <rect x="0" y="0" width="28" height="28"></rect>\n              <path\n                d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                fill="#120810"\n              ></path>\n            </g>\n          </g>\n        </svg>\n      </button>\n    </div>\n  </div>\n</div>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\share\share.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_ModalService__["a" /* ModalService */],
-            __WEBPACK_IMPORTED_MODULE_2__services_AudioService__["a" /* AudioService */]])
-    ], SharePage);
-    return SharePage;
-}());
-
-//# sourceMappingURL=share.js.map
-
-/***/ }),
-/* 130 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OptionsPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_AudioService__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__album_album__ = __webpack_require__(36);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__artist_artist__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_Helpers_Randomizer__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_Initializers_AlbumsInitializer__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__data_Initializers_ArtistsInitializer__ = __webpack_require__(102);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-var OptionsPage = /** @class */ (function () {
-    function OptionsPage(navCtrl, modalService, audioService) {
-        this.navCtrl = navCtrl;
-        this.modalService = modalService;
-        this.audioService = audioService;
-    }
-    OptionsPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad OptionsPage');
-        this.randomAlbum =
-            __WEBPACK_IMPORTED_MODULE_7__data_Initializers_AlbumsInitializer__["a" /* AlbumsInitializer */].albums[__WEBPACK_IMPORTED_MODULE_6__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, __WEBPACK_IMPORTED_MODULE_7__data_Initializers_AlbumsInitializer__["a" /* AlbumsInitializer */].albums.length - 1)];
-        this.randomArtist =
-            __WEBPACK_IMPORTED_MODULE_8__data_Initializers_ArtistsInitializer__["a" /* ArtistsInitializer */].artists[__WEBPACK_IMPORTED_MODULE_6__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, __WEBPACK_IMPORTED_MODULE_8__data_Initializers_ArtistsInitializer__["a" /* ArtistsInitializer */].artists.length - 1)];
-    };
-    OptionsPage.prototype.goToAlbum = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__album_album__["a" /* AlbumPage */], { album: this.randomAlbum });
-    };
-    OptionsPage.prototype.goToArtist = function () {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__artist_artist__["a" /* ArtistPage */], { artist: this.randomArtist });
-    };
-    OptionsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-options',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\options\options.html"*/'<div class="options-container-overlay fromBottomToTop music-player-option open">\n  <section class="headers" header-type="standard" header-style="style5">\n    <header>\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="album-cover">\n            <img\n              src="{{ audioService.playingTrack().art }}"\n              class="album cover"\n              alt="cover"\n              width="100%"\n              height="100%"\n            />\n          </div>\n          <div class="title-author">\n            <h2 class="title">{{ audioService.playingTrack().title }}</h2>\n            <cite class="author" avatar="2sz2" album-cover="2sz5">{{\n              audioService.playingTrack().artist\n            }}</cite>\n          </div>\n        </div>\n      </div>\n    </header>\n  </section>\n\n  <div class="music-player-option-container" style="min-width: 300px;">\n    <div class="inner">\n      <p>Add to</p>\n      <div class="divider"></div>\n      <ul class="add-to">\n        <li>Your Library</li>\n        <li>Playlist</li>\n        <li>Up Next</li>\n      </ul>\n\n      <br />\n\n      <p>Go to</p>\n\n      <div class="divider"></div>\n\n      <ul class="go-to">\n        <li class="album-details-page" (click)="goToAlbum()">Full Album</li>\n        <li class="artist-details-page" (click)="goToArtist()">Artist Profile</li>\n      </ul>\n    </div>\n  </div>\n\n  <div class="music-player-option-back">\n    <div class="main-grids safe-area">\n      <button class="back" (click)="modalService.dismiss()">\n        <svg width="13px" height="13px" viewBox="0 0 16 17">\n          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n            <g transform="translate(-7.000000, -6.000000)">\n              <rect x="0" y="0" width="28" height="28"></rect>\n              <path\n                d="M16.9953742,14.5024854 L22.3097444,9.18811519 C22.8600654,8.63779413 22.8600654,7.74554742 22.3097444,7.19522637 C21.7594233,6.64490532 20.8671766,6.64490532 20.3168556,7.19522637 L20.3168556,7.19522637 L15.0024854,12.5095966 L9.68811519,7.19522637 L9.68811519,7.19522637 C9.13779413,6.64490532 8.24554742,6.64490532 7.69522637,7.19522637 C7.14490532,7.74554742 7.14490532,8.63779413 7.69522637,9.18811519 L13.0095966,14.5024854 L7.69522637,19.8168556 C7.14490532,20.3671766 7.14490532,21.2594233 7.69522637,21.8097444 L7.69522637,21.8097444 C8.24554742,22.3600654 9.13779413,22.3600654 9.68811519,21.8097444 L9.68811519,21.8097444 L15.0024854,16.4953742 L20.3168556,21.8097444 L20.3168556,21.8097444 C20.8671766,22.3600654 21.7594233,22.3600654 22.3097444,21.8097444 L22.3097444,21.8097444 C22.8600654,21.2594233 22.8600654,20.3671766 22.3097444,19.8168556 L16.9953742,14.5024854 Z"\n                fill="#120810"\n              ></path>\n            </g>\n          </g>\n        </svg>\n      </button>\n    </div>\n  </div>\n</div>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\options\options.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
-            __WEBPACK_IMPORTED_MODULE_3__services_AudioService__["a" /* AudioService */]])
-    ], OptionsPage);
-    return OptionsPage;
-}());
-
-//# sourceMappingURL=options.js.map
-
-/***/ }),
-/* 131 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardSelectionPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_ModalService__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_CardsService__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__cards_manager_cards_manager__ = __webpack_require__(126);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-var CardSelectionPage = /** @class */ (function () {
-    function CardSelectionPage(navParams, modalCtrl, modalService, cardsService) {
-        this.navParams = navParams;
-        this.modalCtrl = modalCtrl;
-        this.modalService = modalService;
-        this.cardsService = cardsService;
-        this.purchase = this.navParams.get('purchase');
-    }
-    CardSelectionPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CardSelectionPage');
-        var cardElements = document.getElementsByClassName('unique-card');
-        this.cardsService.setCardTypes(cardElements);
-    };
-    CardSelectionPage.prototype.selectCard = function (card) {
-        this.cardsService.selectCard(card);
-        this.modalService.dismiss();
-    };
-    CardSelectionPage.prototype.manageCards = function () {
-        var _this = this;
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__cards_manager_cards_manager__["a" /* CardsManagerPage */], {
-            purchase: this.purchase
-        });
-        modal.onDidDismiss(function () {
-            _this.modalService.dismiss();
-        });
-        modal.present();
-    };
-    CardSelectionPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-card-selection',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-selection\card-selection.html"*/'<ion-content style="background-color: black">\n  <div\n    class="options-container-overlay purchase-popup-overlay payment-method-overlay open"\n  >\n    <section\n      class="headers"\n      header-type="back"\n      header-style="style3"\n      header-icon-style="user"\n    >\n      <header>\n        <div class="main-grids safe-area">\n          <div class="inner">\n            <button class="minimize" (click)="modalService.dismiss()"></button>\n            <h2>Payment Method</h2>\n          </div>\n        </div>\n      </header>\n    </section>\n\n    <section class="payment-method-header">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <div class="title-author">\n            <img\n              alt="author"\n              src="{{ purchase.pictureUrl }}"\n              width="100%"\n              height="auto"\n            />\n\n            <h2 class="title">{{ purchase.name }}</h2>\n            <cite class="author">{{ purchase.artistName }}</cite>\n          </div>\n\n          <div class="divider"></div>\n\n          <div class="song-price">\n            <b class="final-price">$ {{ purchase.price }}</b>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <section class="section-titles" section-type="payments">\n      <div class="main-grids safe-area">\n        <div class="inner">\n          <h2>Your Cards</h2>\n          <button (click)="manageCards()" class="options">Manage Cards</button>\n        </div>\n      </div>\n    </section>\n\n    <section class="cards-swiper-container">\n      <div\n        class="swiper-container swiper-padding-left cards-swiper no-fastclick swiper-container-horizontal"\n      >\n        <div\n          class="swiper-wrapper"\n          style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);"\n        >\n          <div (click)="selectCard(card)"\n            *ngFor="let card of cardsService.cards"\n            class="unique-card swiper-slide select-card swiper-slide-active"\n            style="width: 305px; margin-right: 18px;"\n          >\n            <div class="slide">\n              <div class="img-inner-wrapper">\n                <img src="{{ card.pictureUrl }}" width="100%" height="auto" />\n\n                <h2>{{ card.type }}</h2>\n\n                <div class="number-card-wrapper">\n                  <span>**** **** **** </span\n                  ><b class="last-numbers-card">{{ card.lastDigits }}</b>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div\n            class="swiper-slide"\n            style="width: 305px; margin-right: 18px;"\n          ></div>\n        </div>\n      </div>\n    </section>\n\n    <div class="main-grids safe-area">\n      <div class="inner">\n        <button class="paypal">\n          <svg width="20" height="24" viewBox="0 0 20 24">\n            <g fill="none" fill-rule="evenodd">\n              <path d="M-17-15h53v53h-53z"></path>\n              <path\n                fill="#FFF"\n                fill-rule="nonzero"\n                d="M19.882 8.652c.157.75.14 1.66-.053 2.732-.763 3.964-3.241 5.946-7.434 5.946h-.58a.848.848 0 0 0-.578.221.978.978 0 0 0-.316.57l-.053.254-.723 4.634-.027.2a.964.964 0 0 1-.322.57.872.872 0 0 1-.585.221H5.908a.522.522 0 0 1-.434-.2.61.61 0 0 1-.119-.483c.08-.5.195-1.25.349-2.25a581.437 581.437 0 0 1 .704-4.493l.355-2.244c.044-.33.233-.495.566-.495h1.724c1.166.018 2.201-.076 3.105-.281 1.535-.349 2.794-.992 3.776-1.929.895-.848 1.575-1.946 2.04-3.295.21-.625.364-1.218.46-1.78.009-.054.02-.088.033-.101a.045.045 0 0 1 .046-.014c.018.005.044.02.08.047.692.527 1.122 1.25 1.289 2.17zm-2.264-3.777c0 .955-.201 2.009-.605 3.16-.702 2.081-2.026 3.487-3.974 4.22-.99.357-2.096.544-3.315.562 0 .009-.395.013-1.185.013l-1.184-.013c-.877 0-1.394.429-1.552 1.286-.018.071-.39 2.437-1.119 7.098-.009.09-.061.134-.158.134H.645a.608.608 0 0 1-.48-.221.628.628 0 0 1-.152-.516L3.066.898c.044-.26.164-.474.362-.644A1.01 1.01 0 0 1 4.105 0h7.869c.298 0 .726.058 1.283.174a8.685 8.685 0 0 1 1.467.429c.938.366 1.655.915 2.151 1.647.496.732.743 1.607.743 2.625z"\n              ></path>\n            </g></svg\n          ><span>Continue on Paypal</span>\n        </button>\n      </div>\n    </div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\card-selection\card-selection.html"*/
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
-            __WEBPACK_IMPORTED_MODULE_2__services_ModalService__["a" /* ModalService */],
-            __WEBPACK_IMPORTED_MODULE_3__services_CardsService__["a" /* CardsService */]])
-    ], CardSelectionPage);
-    return CardSelectionPage;
-}());
-
-//# sourceMappingURL=card-selection.js.map
 
 /***/ }),
 /* 132 */
@@ -2811,13 +2811,12 @@ var ChartDetailsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideosPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LibraryPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_VideoService__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_AudioService__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__search_search__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_VideoService__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_AudioService__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_MusicPlayerPageService__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Randomizer__ = __webpack_require__(21);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2835,19 +2834,19 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 
 
 
-
-var VideosPage = /** @class */ (function () {
-    function VideosPage(videoService, audioService, musicPlayerPageService, modalCtrl) {
+var LibraryPage = /** @class */ (function () {
+    function LibraryPage(videoService, audioService, musicPlayerPageService) {
         this.videoService = videoService;
         this.audioService = audioService;
         this.musicPlayerPageService = musicPlayerPageService;
-        this.modalCtrl = modalCtrl;
+        this.followersCount = __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(100, 999);
+        this.followingCount = __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(100, 999);
     }
-    VideosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad VideosPage');
+    LibraryPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad LibraryPage');
     };
-    VideosPage.prototype.ionViewDidEnter = function () {
-        console.log('ionViewDidEnter VideosPage');
+    LibraryPage.prototype.ionViewDidEnter = function () {
+        console.log('ionViewDidEnter LibraryPage');
         if (this.videoService.currentVideo) {
             this.videoService.showMiniPlayer();
         }
@@ -2855,24 +2854,19 @@ var VideosPage = /** @class */ (function () {
             this.musicPlayerPageService.showFooterPlayer();
         }
     };
-    VideosPage.prototype.openSearch = function () {
-        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__search_search__["a" /* SearchPage */]);
-        modal.present();
-    };
-    VideosPage = __decorate([
+    LibraryPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-videos',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\videos\videos.html"*/'<ion-content>\n\n  <div class="view view-main">\n\n    <div\n\n      id="videos-1"\n\n      data-page="videos"\n\n      class="page nope videos videos-1 page-on-center"\n\n    >\n\n      <!-- <div class="album-cover-blur"></div> -->\n\n      <div class="scrollable-content " style="opacity: 1;">\n\n        <div class="bottom-padding">\n\n          <section\n\n            class="headers"\n\n            header-type="standard"\n\n            header-style="style1"\n\n            header-icon-style="user"\n\n            header-title-style="left"\n\n          >\n\n            <header>\n\n              <div class="main-grids safe-area">\n\n                <div class="inner">\n\n                  <h2>Videos</h2>\n\n                  <button (click)="openSearch()" class="search-icon" essential-search="show"></button>\n\n                </div>\n\n              </div>\n\n            </header>\n\n          </section>\n\n\n\n          <videos-slider></videos-slider>\n\n\n\n          <videos-popular-now></videos-popular-now>\n\n\n\n          <new-videos></new-videos>\n\n\n\n          <mini-video-player></mini-video-player>\n\n        </div>\n\n      </div>\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n\n\n<ion-footer> <player-footer></player-footer> </ion-footer>\n\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\videos\videos.html"*/
+            selector: 'page-library',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\library\library.html"*/'<ion-content>\n\n  <div\n\n    id="profile-1"\n\n    data-page="profile"\n\n    class="page nope profile profile-1 special-scroll page-on-center"\n\n  >\n\n    <div class="album-cover-blur">\n\n      <img\n\n        src="../../assets/images/library/profile picture.jpg"\n\n        class="album cover"\n\n        width="100%"\n\n        height="100%"\n\n      />\n\n    </div>\n\n    \n\n    <section\n\n      class="headers"\n\n      header-type="back"\n\n      header-style="style3"\n\n      header-icon-style="user"\n\n    >\n\n      <header>\n\n        <div class="main-grids safe-area">\n\n          <div class="inner">\n\n            <a class="link back" style="opacity: 0"><button class="back-icon"></button></a>\n\n\n\n            <div class="album-cover">\n\n              <img\n\n                src="../../assets/images/library/profile picture.jpg"\n\n                class="album cover"\n\n                width="100%"\n\n                height="100%"\n\n              />\n\n            </div>\n\n\n\n            <div class="title-author"><h2 class="title">John Doe</h2></div>\n\n          </div>\n\n        </div>\n\n      </header>\n\n    </section>\n\n\n\n    <div class="scrollable-content" style="opacity: 1">\n\n      <div class="special-scroll-tab active bottom-padding">\n\n        <section class="profile-avatar-user">\n\n          <div class="main-grids safe-area">\n\n            <div class="inner">\n\n              <img\n\n                src="../../assets/images/library/profile picture.jpg"\n\n                width="100%"\n\n                height="auto"\n\n              />\n\n\n\n              <div class="user-country">\n\n                <cite class="user">John Doe</cite>\n\n                <p class="country">Australia</p>\n\n              </div>\n\n            </div>\n\n          </div>\n\n        </section>\n\n\n\n        <section class="profile-follow-info">\n\n          <div class="main-grids safe-area">\n\n            <div class="inner">\n\n              <div class="followers">\n\n                <p class="number">{{ followersCount }}</p>\n\n                <p>Followers</p>\n\n              </div>\n\n\n\n              <div class="following">\n\n                <p class="number">{{ followingCount }}</p>\n\n                <p>Following</p>\n\n              </div>\n\n\n\n              <button class="following">follow</button>\n\n            </div>\n\n          </div>\n\n        </section>\n\n\n\n        <best-playlists [isLibrary]="true"></best-playlists>\n\n\n\n        <library-favorites></library-favorites>\n\n\n\n        <recently-played></recently-played>\n\n\n\n        <favorite-artists></favorite-artists>\n\n\n\n        <mini-video-player></mini-video-player>\n\n      </div>\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n\n\n<ion-footer> <player-footer></player-footer> </ion-footer>\n\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\library\library.html"*/
         }),
-        __param(2, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]; }))),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_VideoService__["a" /* VideoService */],
-            __WEBPACK_IMPORTED_MODULE_3__services_AudioService__["a" /* AudioService */],
-            __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
-    ], VideosPage);
-    return VideosPage;
+        __param(2, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return __WEBPACK_IMPORTED_MODULE_3__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]; }))),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_VideoService__["a" /* VideoService */],
+            __WEBPACK_IMPORTED_MODULE_2__services_AudioService__["a" /* AudioService */],
+            __WEBPACK_IMPORTED_MODULE_3__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]])
+    ], LibraryPage);
+    return LibraryPage;
 }());
 
-//# sourceMappingURL=videos.js.map
+//# sourceMappingURL=library.js.map
 
 /***/ }),
 /* 134 */
@@ -2970,12 +2964,13 @@ var VideoDetailsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LibraryPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_VideoService__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_AudioService__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_MusicPlayerPageService__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Randomizer__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_VideoService__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_AudioService__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__search_search__ = __webpack_require__(67);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2993,19 +2988,19 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
 
 
 
-var LibraryPage = /** @class */ (function () {
-    function LibraryPage(videoService, audioService, musicPlayerPageService) {
+
+var VideosPage = /** @class */ (function () {
+    function VideosPage(videoService, audioService, musicPlayerPageService, modalCtrl) {
         this.videoService = videoService;
         this.audioService = audioService;
         this.musicPlayerPageService = musicPlayerPageService;
-        this.followersCount = __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(100, 999);
-        this.followingCount = __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(100, 999);
+        this.modalCtrl = modalCtrl;
     }
-    LibraryPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LibraryPage');
+    VideosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VideosPage');
     };
-    LibraryPage.prototype.ionViewDidEnter = function () {
-        console.log('ionViewDidEnter LibraryPage');
+    VideosPage.prototype.ionViewDidEnter = function () {
+        console.log('ionViewDidEnter VideosPage');
         if (this.videoService.currentVideo) {
             this.videoService.showMiniPlayer();
         }
@@ -3013,19 +3008,24 @@ var LibraryPage = /** @class */ (function () {
             this.musicPlayerPageService.showFooterPlayer();
         }
     };
-    LibraryPage = __decorate([
+    VideosPage.prototype.openSearch = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__search_search__["a" /* SearchPage */]);
+        modal.present();
+    };
+    VideosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-library',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\library\library.html"*/'<ion-content>\n\n  <div\n\n    id="profile-1"\n\n    data-page="profile"\n\n    class="page nope profile profile-1 special-scroll page-on-center"\n\n  >\n\n    <div class="album-cover-blur">\n\n      <img\n\n        src="../../assets/images/library/profile picture.jpg"\n\n        class="album cover"\n\n        width="100%"\n\n        height="100%"\n\n      />\n\n    </div>\n\n    \n\n    <section\n\n      class="headers"\n\n      header-type="back"\n\n      header-style="style3"\n\n      header-icon-style="user"\n\n    >\n\n      <header>\n\n        <div class="main-grids safe-area">\n\n          <div class="inner">\n\n            <a class="link back" style="opacity: 0"><button class="back-icon"></button></a>\n\n\n\n            <div class="album-cover">\n\n              <img\n\n                src="../../assets/images/library/profile picture.jpg"\n\n                class="album cover"\n\n                width="100%"\n\n                height="100%"\n\n              />\n\n            </div>\n\n\n\n            <div class="title-author"><h2 class="title">John Doe</h2></div>\n\n          </div>\n\n        </div>\n\n      </header>\n\n    </section>\n\n\n\n    <div class="scrollable-content" style="opacity: 1">\n\n      <div class="special-scroll-tab active bottom-padding">\n\n        <section class="profile-avatar-user">\n\n          <div class="main-grids safe-area">\n\n            <div class="inner">\n\n              <img\n\n                src="../../assets/images/library/profile picture.jpg"\n\n                width="100%"\n\n                height="auto"\n\n              />\n\n\n\n              <div class="user-country">\n\n                <cite class="user">John Doe</cite>\n\n                <p class="country">Australia</p>\n\n              </div>\n\n            </div>\n\n          </div>\n\n        </section>\n\n\n\n        <section class="profile-follow-info">\n\n          <div class="main-grids safe-area">\n\n            <div class="inner">\n\n              <div class="followers">\n\n                <p class="number">{{ followersCount }}</p>\n\n                <p>Followers</p>\n\n              </div>\n\n\n\n              <div class="following">\n\n                <p class="number">{{ followingCount }}</p>\n\n                <p>Following</p>\n\n              </div>\n\n\n\n              <button class="following">follow</button>\n\n            </div>\n\n          </div>\n\n        </section>\n\n\n\n        <best-playlists [isLibrary]="true"></best-playlists>\n\n\n\n        <library-favorites></library-favorites>\n\n\n\n        <recently-played></recently-played>\n\n\n\n        <favorite-artists></favorite-artists>\n\n\n\n        <mini-video-player></mini-video-player>\n\n      </div>\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n\n\n<ion-footer> <player-footer></player-footer> </ion-footer>\n\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\library\library.html"*/
+            selector: 'page-videos',template:/*ion-inline-start:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\videos\videos.html"*/'<ion-content>\n\n  <div class="view view-main">\n\n    <div\n\n      id="videos-1"\n\n      data-page="videos"\n\n      class="page nope videos videos-1 page-on-center"\n\n    >\n\n      <!-- <div class="album-cover-blur"></div> -->\n\n      <div class="scrollable-content " style="opacity: 1;">\n\n        <div class="bottom-padding">\n\n          <section\n\n            class="headers"\n\n            header-type="standard"\n\n            header-style="style1"\n\n            header-icon-style="user"\n\n            header-title-style="left"\n\n          >\n\n            <header>\n\n              <div class="main-grids safe-area">\n\n                <div class="inner">\n\n                  <h2>Videos</h2>\n\n                  <button (click)="openSearch()" class="search-icon" essential-search="show"></button>\n\n                </div>\n\n              </div>\n\n            </header>\n\n          </section>\n\n\n\n          <videos-slider></videos-slider>\n\n\n\n          <videos-popular-now></videos-popular-now>\n\n\n\n          <new-videos></new-videos>\n\n\n\n          <mini-video-player></mini-video-player>\n\n        </div>\n\n      </div>\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n\n\n<ion-footer> <player-footer></player-footer> </ion-footer>\n\n'/*ion-inline-end:"C:\Users\technomind\Desktop\awesong2\masterAwesong\src\pages\videos\videos.html"*/
         }),
-        __param(2, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return __WEBPACK_IMPORTED_MODULE_3__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]; }))),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_VideoService__["a" /* VideoService */],
-            __WEBPACK_IMPORTED_MODULE_2__services_AudioService__["a" /* AudioService */],
-            __WEBPACK_IMPORTED_MODULE_3__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]])
-    ], LibraryPage);
-    return LibraryPage;
+        __param(2, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Inject"])(Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["forwardRef"])(function () { return __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */]; }))),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__services_VideoService__["a" /* VideoService */],
+            __WEBPACK_IMPORTED_MODULE_3__services_AudioService__["a" /* AudioService */],
+            __WEBPACK_IMPORTED_MODULE_4__services_MusicPlayerPageService__["a" /* MusicPlayerPageService */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */]])
+    ], VideosPage);
+    return VideosPage;
 }());
 
-//# sourceMappingURL=library.js.map
+//# sourceMappingURL=videos.js.map
 
 /***/ }),
 /* 136 */,
@@ -3097,11 +3097,11 @@ webpackEmptyAsyncContext.id = 144;
 
 var map = {
 	"../pages/album/album.module": [
-		351,
+		348,
 		15
 	],
 	"../pages/artist/artist.module": [
-		352,
+		349,
 		14
 	],
 	"../pages/card-creator/card-creator.module": [
@@ -3109,15 +3109,15 @@ var map = {
 		13
 	],
 	"../pages/card-editor/card-editor.module": [
-		348,
+		351,
 		12
 	],
 	"../pages/card-selection/card-selection.module": [
-		353,
+		352,
 		11
 	],
 	"../pages/cards-manager/cards-manager.module": [
-		349,
+		353,
 		10
 	],
 	"../pages/chart-details/chart-details.module": [
@@ -3125,31 +3125,31 @@ var map = {
 		9
 	],
 	"../pages/library/library.module": [
-		363,
+		355,
 		8
 	],
 	"../pages/music-player/music-player.module": [
-		355,
+		356,
 		7
 	],
 	"../pages/options/options.module": [
-		357,
+		358,
 		6
 	],
 	"../pages/playlist/playlist.module": [
-		361,
+		359,
 		5
 	],
 	"../pages/purchases/purchases.module": [
-		358,
+		357,
 		4
 	],
 	"../pages/search/search.module": [
-		356,
+		360,
 		3
 	],
 	"../pages/share/share.module": [
-		359,
+		361,
 		2
 	],
 	"../pages/video-details/video-details.module": [
@@ -3157,7 +3157,7 @@ var map = {
 		1
 	],
 	"../pages/videos/videos.module": [
-		360,
+		363,
 		0
 	]
 };
@@ -3176,77 +3176,8 @@ webpackAsyncContext.id = 185;
 module.exports = webpackAsyncContext;
 
 /***/ }),
-/* 186 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Card; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__ = __webpack_require__(21);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Helpers_GuidGenerator__ = __webpack_require__(288);
-
-
-var Card = /** @class */ (function () {
-    function Card(type) {
-        this.type = type;
-        this.holder = 'Miah Christensen';
-        this.id = __WEBPACK_IMPORTED_MODULE_1__Helpers_GuidGenerator__["a" /* GuidGenerator */].guid();
-        switch (this.type) {
-            case 'mastercard':
-                this.name = 'Mastercard';
-                this.pictureUrl = '../../assets/images/cards/logos/1.png';
-                break;
-            case 'visa':
-                this.name = 'Visa';
-                this.pictureUrl = '../../assets/images/cards/logos/2.png';
-                break;
-            case 'amex':
-                this.name = 'American Express';
-                this.pictureUrl = '../../assets/images/cards/logos/3.png';
-                break;
-            case 'discover':
-                this.name = 'Discover';
-                this.pictureUrl = '../../assets/images/cards/logos/4.png';
-                break;
-            case 'dankort':
-                this.name = 'Dankort';
-                this.pictureUrl = '../../assets/images/cards/logos/5.png';
-                break;
-        }
-        var dMonth = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(1, 12);
-        this.expiryMonth = dMonth < 10 ? '0' + dMonth : dMonth.toString();
-        this.expiryYear = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(18, 30).toString();
-        var dCCV = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, 999);
-        if (dCCV < 10) {
-            this.CCV = '00' + dCCV;
-        }
-        else if (dCCV < 100) {
-            this.CCV = '0' + dCCV;
-        }
-        else {
-            this.CCV = dCCV.toString();
-        }
-        var dLastDigits = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, 999);
-        if (dLastDigits < 10) {
-            this.lastDigits = '000' + dLastDigits;
-        }
-        else if (dLastDigits < 100) {
-            this.lastDigits = '00' + dLastDigits;
-        }
-        else if (dLastDigits < 1000) {
-            this.lastDigits = '0' + dLastDigits;
-        }
-        else {
-            this.lastDigits == dLastDigits.toString();
-        }
-    }
-    return Card;
-}());
-
-//# sourceMappingURL=Card.js.map
-
-/***/ }),
-/* 187 */,
-/* 188 */
+/* 186 */,
+/* 187 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3257,17 +3188,17 @@ var Card = /** @class */ (function () {
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_audio_cordova_track__ = __webpack_require__(100);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_audio_track_component__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_audio_track_component__ = __webpack_require__(188);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_audio_track_progress_component__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_audio_track_progress_component__ = __webpack_require__(189);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_audio_track_play_component__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_audio_track_play_component__ = __webpack_require__(190);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_audio_time_pipe__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_audio_time_pipe__ = __webpack_require__(191);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_audio_module__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_audio_module__ = __webpack_require__(296);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__ionic_audio_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_audio_playlist_item_directive__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_audio_playlist_item_directive__ = __webpack_require__(192);
 /* unused harmony namespace reexport */
 
 
@@ -3281,7 +3212,7 @@ var Card = /** @class */ (function () {
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 189 */
+/* 188 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3504,7 +3435,7 @@ var AudioTrackComponent = /** @class */ (function () {
 //# sourceMappingURL=ionic-audio-track-component.js.map
 
 /***/ }),
-/* 190 */
+/* 189 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3652,7 +3583,7 @@ var AudioTrackProgressBarComponent = /** @class */ (function () {
 //# sourceMappingURL=ionic-audio-track-progress-component.js.map
 
 /***/ }),
-/* 191 */
+/* 190 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3772,7 +3703,7 @@ var AudioTrackPlayComponent = /** @class */ (function () {
 //# sourceMappingURL=ionic-audio-track-play-component.js.map
 
 /***/ }),
-/* 192 */
+/* 191 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3819,7 +3750,7 @@ var AudioTimePipe = /** @class */ (function () {
 //# sourceMappingURL=ionic-audio-time-pipe.js.map
 
 /***/ }),
-/* 193 */
+/* 192 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3904,6 +3835,75 @@ var AudioPlaylistItemDirective = /** @class */ (function () {
 //# sourceMappingURL=ionic-audio-playlist-item-directive.js.map
 
 /***/ }),
+/* 193 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Card; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Helpers_GuidGenerator__ = __webpack_require__(297);
+
+
+var Card = /** @class */ (function () {
+    function Card(type) {
+        this.type = type;
+        this.holder = 'Miah Christensen';
+        this.id = __WEBPACK_IMPORTED_MODULE_1__Helpers_GuidGenerator__["a" /* GuidGenerator */].guid();
+        switch (this.type) {
+            case 'mastercard':
+                this.name = 'Mastercard';
+                this.pictureUrl = '../../assets/images/cards/logos/1.png';
+                break;
+            case 'visa':
+                this.name = 'Visa';
+                this.pictureUrl = '../../assets/images/cards/logos/2.png';
+                break;
+            case 'amex':
+                this.name = 'American Express';
+                this.pictureUrl = '../../assets/images/cards/logos/3.png';
+                break;
+            case 'discover':
+                this.name = 'Discover';
+                this.pictureUrl = '../../assets/images/cards/logos/4.png';
+                break;
+            case 'dankort':
+                this.name = 'Dankort';
+                this.pictureUrl = '../../assets/images/cards/logos/5.png';
+                break;
+        }
+        var dMonth = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(1, 12);
+        this.expiryMonth = dMonth < 10 ? '0' + dMonth : dMonth.toString();
+        this.expiryYear = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(18, 30).toString();
+        var dCCV = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, 999);
+        if (dCCV < 10) {
+            this.CCV = '00' + dCCV;
+        }
+        else if (dCCV < 100) {
+            this.CCV = '0' + dCCV;
+        }
+        else {
+            this.CCV = dCCV.toString();
+        }
+        var dLastDigits = __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__["a" /* Randomizer */].randomIntFromInterval(0, 999);
+        if (dLastDigits < 10) {
+            this.lastDigits = '000' + dLastDigits;
+        }
+        else if (dLastDigits < 100) {
+            this.lastDigits = '00' + dLastDigits;
+        }
+        else if (dLastDigits < 1000) {
+            this.lastDigits = '0' + dLastDigits;
+        }
+        else {
+            this.lastDigits == dLastDigits.toString();
+        }
+    }
+    return Card;
+}());
+
+//# sourceMappingURL=Card.js.map
+
+/***/ }),
 /* 194 */,
 /* 195 */,
 /* 196 */,
@@ -3953,8 +3953,8 @@ var AudioPlaylistItemDirective = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__home_home__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__videos_videos__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__library_library__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__videos_videos__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__library_library__ = __webpack_require__(133);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3994,7 +3994,7 @@ var TabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_VideoService__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search_search__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__search_search__ = __webpack_require__(67);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4081,26 +4081,26 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(28);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_screen_orientation__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_ionic_audio__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_ionic_audio__ = __webpack_require__(187);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_music_controls__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_tabs_tabs__ = __webpack_require__(236);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(237);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_videos_videos__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_library_library__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_playlist_playlist__ = __webpack_require__(67);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_music_player_music_player__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_share_share__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_options_options__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_videos_videos__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_library_library__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_playlist_playlist__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_music_player_music_player__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_share_share__ = __webpack_require__(126);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_options_options__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_album_album__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_artist_artist__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_chart_details_chart_details__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_purchases_purchases__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_card_selection_card_selection__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_cards_manager_cards_manager__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_card_creator_card_creator__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_card_editor_card_editor__ = __webpack_require__(125);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_card_selection_card_selection__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_cards_manager_cards_manager__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_card_creator_card_creator__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_card_editor_card_editor__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_video_details_video_details__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_search_search__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_search_search__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_featured_featured__ = __webpack_require__(321);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_most_played_most_played__ = __webpack_require__(322);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_recommended_recommended__ = __webpack_require__(323);
@@ -4118,7 +4118,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_player_footer_player_footer__ = __webpack_require__(340);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__services_MusicPlayerPageService__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__services_VideoDetailsPageService__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__services_CardsService__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__services_CardsService__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__services_ModalService__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__services_VideoService__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__services_AudioService__ = __webpack_require__(17);
@@ -4232,22 +4232,22 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["f" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_0__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/card-editor/card-editor.module#CardEditorPageModule', name: 'CardEditorPage', segment: 'card-editor', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cards-manager/cards-manager.module#CardsManagerPageModule', name: 'CardsManagerPage', segment: 'cards-manager', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/card-creator/card-creator.module#CardCreatorPageModule', name: 'CardCreatorPage', segment: 'card-creator', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/album/album.module#AlbumPageModule', name: 'AlbumPage', segment: 'album', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/artist/artist.module#ArtistPageModule', name: 'ArtistPage', segment: 'artist', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/card-creator/card-creator.module#CardCreatorPageModule', name: 'CardCreatorPage', segment: 'card-creator', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/card-editor/card-editor.module#CardEditorPageModule', name: 'CardEditorPage', segment: 'card-editor', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/card-selection/card-selection.module#CardSelectionPageModule', name: 'CardSelectionPage', segment: 'card-selection', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cards-manager/cards-manager.module#CardsManagerPageModule', name: 'CardsManagerPage', segment: 'cards-manager', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/chart-details/chart-details.module#ChartDetailsPageModule', name: 'ChartDetailsPage', segment: 'chart-details', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/library/library.module#LibraryPageModule', name: 'LibraryPage', segment: 'library', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/music-player/music-player.module#MusicPlayerPageModule', name: 'MusicPlayerPage', segment: 'music-player', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/options/options.module#OptionsPageModule', name: 'OptionsPage', segment: 'options', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/purchases/purchases.module#PurchasesPageModule', name: 'PurchasesPage', segment: 'purchases', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/share/share.module#SharePageModule', name: 'SharePage', segment: 'share', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/videos/videos.module#VideosPageModule', name: 'VideosPage', segment: 'videos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/options/options.module#OptionsPageModule', name: 'OptionsPage', segment: 'options', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/playlist/playlist.module#PlaylistPageModule', name: 'PlaylistPage', segment: 'playlist', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/share/share.module#SharePageModule', name: 'SharePage', segment: 'share', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/video-details/video-details.module#VideoDetailsPageModule', name: 'VideoDetailsPage', segment: 'video-details', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/library/library.module#LibraryPageModule', name: 'LibraryPage', segment: 'library', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/videos/videos.module#VideosPageModule', name: 'VideosPage', segment: 'videos', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_46_ngx_credit_cards__["NgXCreditCardsModule"],
@@ -4372,62 +4372,6 @@ var MyApp = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GuidGenerator; });
-var GuidGenerator = /** @class */ (function () {
-    function GuidGenerator() {
-    }
-    GuidGenerator.guid = function () {
-        return (this.s4() +
-            this.s4() +
-            '-' +
-            this.s4() +
-            '-' +
-            this.s4() +
-            '-' +
-            this.s4() +
-            '-' +
-            this.s4() +
-            this.s4() +
-            this.s4());
-    };
-    GuidGenerator.s4 = function () {
-        return Math.floor((1 + Math.random()) * 0x10000)
-            .toString(16)
-            .substring(1);
-    };
-    return GuidGenerator;
-}());
-
-//# sourceMappingURL=GuidGenerator.js.map
-
-/***/ }),
-/* 289 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardsInitializer; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Card__ = __webpack_require__(186);
-
-var CardsInitializer = /** @class */ (function () {
-    function CardsInitializer() {
-    }
-    CardsInitializer.cards = [
-        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('mastercard'),
-        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('visa'),
-        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('amex'),
-        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('discover'),
-        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('dankort')
-    ];
-    return CardsInitializer;
-}());
-
-//# sourceMappingURL=CardsInitializer.js.map
-
-/***/ }),
-/* 290 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Video; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Helpers_Randomizer__ = __webpack_require__(21);
 
@@ -4453,14 +4397,14 @@ var Video = /** @class */ (function () {
 //# sourceMappingURL=Video.js.map
 
 /***/ }),
+/* 289 */,
+/* 290 */,
 /* 291 */,
 /* 292 */,
 /* 293 */,
 /* 294 */,
 /* 295 */,
-/* 296 */,
-/* 297 */,
-/* 298 */
+/* 296 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4469,12 +4413,12 @@ var Video = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_audio_track_component__ = __webpack_require__(189);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_audio_track_progress_component__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_audio_track_play_component__ = __webpack_require__(191);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_audio_time_pipe__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_audio_track_component__ = __webpack_require__(188);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_audio_track_progress_component__ = __webpack_require__(189);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_audio_track_play_component__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_audio_time_pipe__ = __webpack_require__(191);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_audio_providers__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_audio_playlist_item_directive__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_audio_playlist_item_directive__ = __webpack_require__(192);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4528,6 +4472,62 @@ var IonicAudioModule = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=ionic-audio.module.js.map
+
+/***/ }),
+/* 297 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GuidGenerator; });
+var GuidGenerator = /** @class */ (function () {
+    function GuidGenerator() {
+    }
+    GuidGenerator.guid = function () {
+        return (this.s4() +
+            this.s4() +
+            '-' +
+            this.s4() +
+            '-' +
+            this.s4() +
+            '-' +
+            this.s4() +
+            '-' +
+            this.s4() +
+            this.s4() +
+            this.s4());
+    };
+    GuidGenerator.s4 = function () {
+        return Math.floor((1 + Math.random()) * 0x10000)
+            .toString(16)
+            .substring(1);
+    };
+    return GuidGenerator;
+}());
+
+//# sourceMappingURL=GuidGenerator.js.map
+
+/***/ }),
+/* 298 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CardsInitializer; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Card__ = __webpack_require__(193);
+
+var CardsInitializer = /** @class */ (function () {
+    function CardsInitializer() {
+    }
+    CardsInitializer.cards = [
+        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('mastercard'),
+        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('visa'),
+        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('amex'),
+        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('discover'),
+        new __WEBPACK_IMPORTED_MODULE_0__Card__["a" /* Card */]('dankort')
+    ];
+    return CardsInitializer;
+}());
+
+//# sourceMappingURL=CardsInitializer.js.map
 
 /***/ }),
 /* 299 */
@@ -4670,7 +4670,7 @@ var Playlist = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_album_album__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_Initializers_SongsInitializer__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_Initializers_AlbumsInitializer__ = __webpack_require__(43);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_Initializers_VideosInitializer__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__data_Initializers_VideosInitializer__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4774,7 +4774,7 @@ var MostPlayedComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_MusicPlayerPageService__ = __webpack_require__(15);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_playlist_playlist__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_playlist_playlist__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Shuffler__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__data_Initializers_SongsInitializer__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__data_Initializers_PlaylistsInitializer__ = __webpack_require__(103);
@@ -4878,7 +4878,7 @@ var RecentlyPlayedComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_VideoService__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_VideoDetailsPageService__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Initializers_VideosInitializer__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Initializers_VideosInitializer__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4971,7 +4971,7 @@ var FavoriteArtistsComponent = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BestPlaylistsComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_playlist_playlist__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages_playlist_playlist__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Helpers_Shuffler__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Initializers_PlaylistsInitializer__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -5156,7 +5156,7 @@ var Chart = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideosSliderComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_VideoDetailsPageService__ = __webpack_require__(44);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Initializers_VideosInitializer__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Initializers_VideosInitializer__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -5200,7 +5200,7 @@ var VideosSliderComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_VideoDetailsPageService__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_VideoPair__ = __webpack_require__(334);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Initializers_VideosInitializer__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Initializers_VideosInitializer__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__data_Helpers_Shuffler__ = __webpack_require__(10);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -5277,7 +5277,7 @@ var VideoPair = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_VideoDetailsPageService__ = __webpack_require__(44);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__data_Helpers_Shuffler__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Initializers_VideosInitializer__ = __webpack_require__(42);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__data_Initializers_VideosInitializer__ = __webpack_require__(41);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
